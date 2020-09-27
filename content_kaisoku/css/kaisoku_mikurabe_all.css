@@ -1,0 +1,32 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+}
+div.main{
+	width:1980px;
+	margin:0 auto;
+}
+/*文字サイズ等*/
+html{
+	font-size:0px;
+	line-height:27px;	/*1.5倍*/
+}
+.content{
+	font-size:18px;
+	vertical-align:top;
+}
+/*幅調整*/
+html{
+	width:1980px;
+}
+.content{
+	display:inline-block;
+	margin:10px 2px;/*
+	width:467px;
+	padding:0 0px;*/
+}
+iframe{
+	width:390px;
+	height:800px;
+	border:1px solid #000;
+}

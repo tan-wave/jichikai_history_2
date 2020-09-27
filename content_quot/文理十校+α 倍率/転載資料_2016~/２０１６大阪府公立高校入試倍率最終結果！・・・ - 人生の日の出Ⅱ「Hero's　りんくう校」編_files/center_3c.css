@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* 3 COLUMNS CSS Document for goo blog modulized templates 080226 */
+
+/*-- ■SECTION 050 #main 内レイアウト設定 --*/
+#main-3c-wrap{width:100%;float:left;margin:0 -200px 0 0;}
+#center{width:100%;float:right;margin:0 0 0 -200px;}
+#in-center{margin:0 200px;}
+#side-a{float:right;}
+#side-b{float:left;}
+
+/*-- ■SECTION 060 #content-2c/3c 設定 --*/
+#in-center .content-3c{margin:0 10px;}

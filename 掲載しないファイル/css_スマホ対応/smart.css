@@ -1,0 +1,162 @@
+body{
+	margin:0 auto;
+	padding:0;
+	font-family:"メイリオ","游ゴシック",sans-serif;
+	font-size:14px;
+	line-height:1.6em;
+}
+
+header{
+	width:100%;
+	margin:0;
+	padding:0.5em 0 0.5em 10px;
+	color:#333;
+	background:linear-gradient(to right, #CCFFCC, #EEFFEE);
+}
+h1{
+	vertical-align:middle;
+	font-size:24px;
+	line-height:1.5em;
+	font-weight:900;
+}
+.top,.reverse{
+	margin:0 20px;
+	vertical-align:middle;
+	font-size:1rem;
+}
+
+/*図表*/
+figure{
+	width:100%;
+	position:fixed;
+	display:flex;
+	flex-direction: column;
+	max-height:50vh;/*h1*/
+	/*top:calc(100vh - 80px);*/
+	bottom:0;
+	background-color:#FFF;
+	text-align:center;
+}
+#fig_img_frame{
+	position:fixed;
+	z-index:-1;
+	/*order:1;*/
+	width:100%;
+	background-color:#EFE;
+	padding:2px;
+}
+#fig_img{
+	max-width:100%;
+	max-height:calc(50vh - 73px - 4px);
+	border:1px solid #999;
+	vertical-align:middle;
+}
+
+figcaption{
+	order:2;
+}
+#fig_ui_top,#fig_ui{
+	/*background:#FFF;*/
+	min-height:35px;
+	font-size:16px;
+	border:1px solid #999;
+}
+#fig_ui_top{
+	border-bottom:none;
+	line-height:34px;
+}
+#fig_title{
+	display:inline-block;
+	width:calc(100% - 34px);
+	height:34px;
+	border-right:1px solid #999;
+	vertical-align:bottom;
+}
+#fig_ui_sm{
+	display:inline-block;
+	width:34px;
+	height:34px;
+	vertical-align:bottom;
+}
+
+.fig_ui_button{
+	display:inline-block;
+	width:calc(100%/3);
+	vertical-align:top;
+	height:33px;
+	border:none;
+	border-left:1px solid #999;
+	padding:0;
+}
+.fig_ui_button:first-child{
+	border-left:none;
+}
+/*ボタン無効化*/
+.fig_ui_button{
+	font-size:inherit;
+	/*border:none;*/
+	/*background-color:inherit;*/
+}
+/*
+.fig_ui_button:first-child:active{
+	padding:0px;
+}
+*/
+/*図表ここまで*/
+
+main{
+	padding:5px;
+	margin-bottom:80px;
+	display:block;
+}
+section{
+	margin-bottom:18px;
+}
+
+section>*:not(a):not(section):not(h2):not(h3):not(h4):not(h5):not(h6):not(.midashi4){
+	margin-left:20px;
+	margin-right:10px;
+}
+h2{
+	margin:10px 0px 0px;
+	border-left:5px solid #8E8;
+	border-bottom:3px dotted #8E8;
+	padding-left:15px;
+	font-size:20px;
+	line-height:1.6em;
+}
+h3{
+	margin:5px 5px 10px;
+	border-bottom:2px dashed #999;
+	padding-left:5px;
+	font-size:18px;
+}
+.midashi4{
+	margin:5px;
+	border-bottom:1px dotted #CCC;
+	padding-left:5px;
+	font-size:16px;
+}
+.midashi4 *{
+	display:inline-block;
+	margin-right:10px;
+}
+h5{
+	margin:5px 0;
+	border-bottom:1px dotted #CCC;
+}
+
+/*テキスト装飾*/
+span[onclick]{
+	color:#0000FF;
+	text-decoration: underline;
+}
+span.fig_on{
+	color:#F00;
+}
+.himitsu{
+	text-decoration: line-through;
+}
+p[id~="a"]{
+	display:none;
+}

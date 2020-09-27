@@ -1,0 +1,270 @@
+@charset "UTF-8";/* INDIVIDUAL CSS Document for goo blog modulized templates 090423 */
+/* template ID :1020 */
+
+/*-- ■SECTION 010 全体設定 --*/
+body {color:#333333; background:#009845 url(/img/template/user/1020/title.gif) repeat-x right top;}
+a {color:#ff4200;text-decoration:underline;}
+a:hover {color:#ff6000;text-decoration:none;}
+a:active {color:#ff6000;}
+a:visited {color:#d91913;text-decoration:underline;}
+
+
+/*-- 不使用拡張部分 --*/
+#title-banner-top,#title-banner-bottom,#main-top,#main-bottom,.content-top,.content-bottom,#footer{display:none;}
+.mod-entry-set-top,/*.mod-entry-set-bottom,*/.mod-comments-top,/*.mod-comments-bottom,*/.comment-list-top,.comment-list-bottom,.comment-form-top,.comment-form-bottom{display:none;}
+.mod-trackbacks-top,/*.mod-trackbacks-bottom,*/.trackback-list-top,.trackback-list-bottom {display:none;}
+.sidebar-top,.sidebar-bottom,.module-top,.module-bottom{display:none;}
+/*-- ■SECTION 020 レイアウト設定 --*/
+/*-- 固定幅（ユーザー変更不可）の場合は#container幅をピクセルで指定 --*/
+#container {min-width: 840px; width:90%; margin:0 auto; }
+#title-banner {}
+#main {padding:0px 10px 10px 10px;}
+#footer {}
+/*-- ■SECTION 030 #title-banner 設定 --*/
+#title-banner-top {}
+#title-banner-body {}
+#title-banner-bottom {}
+#title-banner-body #title-banner-set {min-height:300px;_height:300px;}
+#title-banner-body #title-banner-set h1 {color:#d91913;font-size:150%;line-height:1.2;text-align:left;padding:20px 20px 0px 20px;margin-top:0px;}
+#title-banner-body #title-banner-set h1 a {color:#d91913;text-decoration:none;}
+#title-banner-body #title-banner-set h1 a:hover,#title-banner-body #title-banner-set h1 a:active {color:#ff6000;text-decoration:underline;}
+#title-banner-body #title-banner-set h2 {color:#333333;font-size:110%;line-height:1.2;text-align:left;font-weight:normal;padding:5px 20px 20px 20px ;}
+/*-- ■SECTION 040 #main 設定 --*/
+#main-top {background:#009844;}
+#main-bottom {}
+/*-- ■SECTION 050 #main 内レイアウト設定 --*/
+#center-2c {}
+#center-3c {}
+#side-a,
+#side-b {}
+/*-- ■SECTION 060 #center-2c/3c 設定 --*/
+.content {}
+.content-top {}
+.content-body {padding:0 3px;}
+.content-bottom {display:none;}
+/*-- ■SECTION 070 エントリー設定 --*/
+/*-- 070-010 エントリーセット --*/
+.mod-entry-set {margin-bottom:15px;border: solid 1px #009845;}
+.mod-entry-set-top {}
+.mod-entry-set-top div.lt {}
+.mod-entry-set-top div.rt {}
+.mod-entry-set-bottom {background:#ffffff;}
+.mod-entry-set-bottom div.lb {}
+.mod-entry-set-bottom div.rb {background:#ffffff url(/img/template/user/1020/entry_rb.gif) no-repeat right bottom; height:17px;}
+/*-- 070-020 エントリー --*/
+.entry {padding-top:0px; background:#ffffff url(/img/template/user/1020/entry_ct.gif) repeat-x left top;}
+/*-- ENTRY TOP --*/
+.entry-top {background:url(/img/template/user/1020/entry_lt.gif) no-repeat left top;}
+/*-- 記事タイトル --*/
+.entry-top h3 {font-size:120%; color:#d91913; line-height:1.1; text-align:left; padding:31px 15px 14px 30px; background:url(/img/template/user/1020/line.gif) repeat-x left bottom;}
+.entry-top h3 a {color:#d91913;text-decoration:none;}
+.entry-top h3 a:hover {color:#ff6000;text-decoration:underline;}
+.entry-top h3 a:visited {color:#d91913;text-decoration:none;}
+/*-- 投稿日時|カテゴリー --*/
+.entry-top-info {text-align:right; line-height:1.1; padding:10px;}
+.entry-top-info a {color:#006933;text-decoration:none;}
+.entry-top-info a:hover {color:#00c560;text-decoration:underline;}
+.entry-top-info a:visited {color:#006933;text-decoration:none;}
+.entry-top-info span.entry-top-info-time {}
+.entry-top-info span.entry-top-info-category {}
+/*-- /ENTRY TOP --*/
+/*-- ENTRY BODY --*/
+.entry-body {padding:12px; background:#ffffff;}
+/*-- 記事画像 --*/
+.entry-body-image {margin:15px auto;text-align:center;}
+.entry-body-image a img,.entry-body-text a img {border-color:#ffffff;}
+.entry-body-image a:visited img,.entry-body-text a:visited img {border-color:#ffffff;}
+.entry-body-image a:hover img,.entry-body-text a:hover img {border-color:#ffffff;}
+/*-- 記事本文 --*/
+.entry-body-text {word-break:break-all; padding:0 7px 0 0;}
+.entry-body-text a {color:#006933;text-decoration:underline;}
+.entry-body-text a:hover {color:#00c560;text-decoration:none;}
+.entry-body-text a:visited {color:#006933;}
+/*-- /ENTRY BODY --*/
+/*-- ENTRY BOTTOM --*/
+.entry-bottom {text-align:right; line-height:1.1; padding:10px;}
+.entry-bottom a {color:#006933;text-decoration:none;}
+.entry-bottom a:hover {color:#00c560;text-decoration:underline;}
+.entry-bottom a:visited {color:#006933;text-decoration:none;}
+.entry-bottom-info {}
+.entry-bottom-info a {}
+.entry-bottom-info a:hover {}
+.entry-bottom-info a:visited {}
+/*-- /ENTRY BOTTOM --*/
+
+/*-- 070-030 コメント --*/
+#mod-comments,#mod-trackbacks{margin-top:20px; margin-bottom:15px; background:#ffffff url(/img/template/user/1020/entry_lt.gif) no-repeat left top; border: solid 1px #009845;}
+.mod-comments-top,.mod-trackbacks-top{}
+.mod-comments-top .lt,.mod-trackbacks-top .lt{}
+.mod-comments-top .rt,.mod-trackbacks-top .rt{}
+.mod-comments-bottom,.mod-trackbacks-bottom{}
+.mod-comments-bottom .lb,.mod-trackbacks-bottom .lb{}
+.mod-comments-bottom .rb,.mod-trackbacks-bottom .rb{background:url(/img/template/user/1020/entry_rb.gif) no-repeat right bottom; height:17px;}
+.mod-comments-body,.mod-trackbacks-body{}
+#mod-comments h3,#mod-trackbacks h3{font-size:120%; color:#333333; line-height:1.1; text-align:left; padding:31px 15px 14px 30px; background:url(/img/template/user/1020/line.gif) repeat-x left bottom;}
+#mod-comments .comment-list{padding:20px 0 30px 0;}
+#mod-comments .comment-list-body,#mod-trackbacks .trackback-list-body{color:#333333;}
+#mod-comments .comment-list-body dl,#mod-trackbacks .trackback-list-body dl{margin:8px;padding:8px; background:#faf7e8;}
+#mod-comments .comment-list-body dl dt,#mod-trackbacks .trackback-list-body dl dt{color:#333333;}
+#mod-comments .comment-list-body dl dt a,#mod-trackbacks .trackback-list-body dl dt a{color:#006933;font-weight:bold;text-decoration:underline;}
+#mod-comments .comment-list-body dl dt a:visited,#mod-trackbacks .trackback-list-body dl dt a:visited{text-decoration:underline;color:#006933;}
+#mod-comments .comment-list-body dl dt a:hover,#mod-trackbacks .trackback-list-body dl dt a:hover{text-decoration:none;color:#eaff00;}
+.comment-list-title,.trackback-list-title{font-weight:bold;color:#333333;}
+.comment-list-date,.trackback-list-date{color:#333333;}
+.comment-list-text,.trackback-list-text{color:#333333;word-break:break-all;}
+#mod-comments .comment-input dl{}
+#mod-comments .comment-submit input{}
+
+.comment-form{margin-top:10px; color:#333333; margin-left:-10px;}
+.comment-alert,.trackback-alert{color:#ff4200; font-weight:bold;margin:20px 5px 0px 5px;text-align:center; padding:10px;}
+.comment-alert .comment-no-js{background:none;}
+.trackback-alert .comment-no-js{background:none;}
+.comment-gooid{color:#333333;padding:10px;margin-bottom:10px;}
+.comment-gooid dl dt{font-weight:bold;color:#333333;}
+.comment-gooid dl dd{font-size:90%;}
+.comment-login{color:#006933;}
+.comment-login-link{}
+.comment-login-link a{color:#006933;text-decoration:none;}
+.comment-login-link a:hover{color:#b3de00;}
+.comment-list-error{color:#ff4200;padding:3px;border:solid 1px #ff4200; background:none;}
+
+/*-- 070-040 トラックバック --*/
+#mod-trackbacks .trackback-ping-url{color:#006933;font-weight:bold;text-align:center;margin:20px 0;}
+#mod-trackbacks .trackback-ping-url dd input{color:#006933; font-weight:bold; text-align:center;}
+#mod-trackbacks .trackback-filter{margin:15px 15px 20px 15px;}
+#mod-trackbacks .trackback-filter ul li{color:#333333;padding:1px 1px 1px 18px;background:url(/img/template/user/1020/s_listmark.gif) no-repeat 0 1px;line-height:1.2;}
+/*-- 070-050 ナビゲーション --*/
+#mod-prev-next {margin:30px 0 50px 0;padding:5px 10px;font-weight:bold;}
+#mod-prev-next a {color:#eaff00;text-decoration:underline;}
+#mod-prev-next a:hover {color:#ffffff;text-decoration:none;}
+#mod-prev-next a:visited {color:#ffffff;text-decoration:underline;}
+/*-- ■SECTION 080 goo ad 設定 --*/
+.mod-entry-set-goo-ad {margin:30px 0 30px;text-align:center;}
+/*-- MicroAd背景色 --*/
+.gooAd {margin:0px; background:#009845;}
+.gooAd td {}
+td.gooAd_sponsor_td {}
+td.gooAd_title_td {}
+td.gooAd_url_td {}
+td.gooAd_text_td {}
+.gooAd_text {}
+td.gooAd_btm_td {}
+/*-- スポンサーリンク文字 --*/
+a.gooAd_sponsor {}
+
+/*-- タイトルリンク文字 --*/
+a.gooAd_title {color:#eaff00;font-weight:bold; text-decoration:none;}
+a:visited.gooAd_title {color:#eaff00;font-weight:bold; text-decoration:none;}
+a:hover.gooAd_title {color:#ffffff;font-weight:bold; text-decoration:none;}
+a:active.gooAd_title {color:#ffffff;font-weight:bold; text-decoration:none;}
+
+/*-- URLリンク文字 --*/
+a.gooAd_url {color:#ffffff; text-decoration:none;}
+a:visited.gooAd_url {color:#ffffff; text-decoration:none;}
+a:hover.gooAd_url {color:#eaff00; text-decoration:none;}
+a:active.gooAd_url {color:#eaff00; text-decoration:none;}
+
+/*-- テキストリンク文字 --*/
+div.gooAd_text_td {line-height:1.1;}
+a.gooAd_text {color:#ffffff; text-decoration:none;}
+a:visited.gooAd_text {color:#ffffff; text-decoration:none;}
+a:hover.gooAd_text {color:#eaff00; text-decoration:none;}
+a:active.gooAd_text {color:#eaff00; text-decoration:none;}
+
+/*-- リンク範囲拡大 --*/
+.gooAd_title_td A,
+.gooAd_url_td A,
+.gooAd_text_td A {text-decoration:none;}
+/*-- ■SECTION 090 #sidebar 設定 --*/
+.sidebar-top{display:none;}
+.sidebar{}
+.sidebar-bottom{display:none;}
+/*-- ■SECTION 100 サイドバーモジュール共通設定 --*/
+.module{margin:0px;padding-bottom:12px;padding-top:0px; color:#ffffff;}
+.module .module-top{display:none;}
+.module .module-bottom{display:none;}
+.module h4{text-align:center; color:#ffffff; font-size:110%; line-height:1.1; padding:35px 5px 10px 5px; margin-bottom:7px; background:url(/img/template/user/1020/side_bg.gif) no-repeat left top;}
+.module .module-body{padding:5px;margin:0px; word-break: break-all;}
+.module ul{}
+.module ul li{color:#ffffff;padding:0px 10px 3px 19px;background:url(/img/template/user/1020/listmark.gif) no-repeat 0 1px;line-height:1.1;}
+.module dl{}
+.module dl dt{font-weight:bold;color:#ffffff;}
+.module dl dd{}
+.module a {color:#eaff00;text-decoration:underline;}
+.module a:link:hover {color:#ffffff;text-decoration:none;}
+.module a:link:active {color:#ffffff;text-decoration:none;}
+.module a:visited {color:#e3ffbe;text-decoration:underline;}
+.module-body hr {height:1px;color:#333333; background-color:#ffffff;border:0px;}
+
+/*-- ■SECTION 110 サイドバーモジュール個別設定 --*/
+/*--110 お知らせ【ＰＲ】 --*/
+#mod-advertising li{padding:0 0 0 5px;background:none;}
+/*--110 プロフィール --*/
+#mod-profile dl{padding:0 0 0 5px;}
+#mod-profile dt{color:#ffffff;}
+#mod-profile .mod-pro-photo{}
+/*--110 携帯 --*/
+#mod-mobile{text-align:center;}
+#mod-mobile ul li{text-align:center;padding:0;background:none;}
+/*--110 最新記事 --*/
+#mod-recent-entries{}
+/*--110 カテゴリー --*/
+#mod-categories{}
+/*--110 ログイン --*/
+#mod-login{text-align:center;}
+#mod-login ul li{border:none;padding:0;text-align:center;}
+/*--110 最新コメント --*/
+#mod-recent-comments{}
+/*--110 最新トラックバック --*/
+#mod-recent-trackbacks{}
+/*--110 カレンダー -*/
+#mod-cal-table th,#mod-cal-table{padding:5px 2px;}
+#mod-cal-table th,#mod-cal-table td{color:#ffffff;}
+.mod-cal-caption,.mod-cal-week{color:#ffffff;font-weight:bold;}
+#mod-cal-table td.mod-cal-day-lin-td a{color:#eaff00; font-weight:bold; text-decoration:underline; background:#006933;}
+#mod-cal-table td.mod-cal-day-lin-td a:visited{color:#e3ffbe; font-weight:bold; text-decoration:underline;}
+#mod-cal-table td.mod-cal-day-lin-td a:hover{color:#ffffff; font-weight:bold; text-decoration:none;}
+.mod_cal_day_linked{}
+#mod-cal-table a{font-weight:bold;}
+/*-- 次月前月ナビ --*/
+#mod-cal-prev-next a {color:#eaff00; text-decoration:none;font-weight:bold;}
+#mod-cal-prev-next a:hover{color:#ffffff;text-decoration:none;}
+#mod-cal-prev-next a:visited{color:#eaff00;text-decoration:none;}
+/*-- スクロールあり--*/
+#mod-back-numbers-scroll .module-body{padding:10px 0px 10px 5px;margin:0px;width:190px;}
+#mod-back-numbers-scroll .module-body li{}
+/*-- スクロールなし --*/
+#mod-back-numbers-noscroll .module-body{padding:10px 0px 10px 5px;margin:0px;width:190px;}
+#mod-back-numbers-noscroll .module-body li{}
+/*-- ブックマーク --*/
+#mod-bookmarks dl {padding:0 0 0 5px;}
+#mod-bookmarks .mod-boo-name{color:#ffffff;font-weight:bold;}
+#mod-bookmarks .mod-boo-description {color:#ffffff;}
+/*-- goo おすすめ --*/
+#mod-goo-recommends li{background:none;padding:0px 15px 0px 12px;}
+#mod-goo-recommends li a{text-decoration:none;}
+/*-- RSS/gooブログ --*/
+#mod-powered-by{}
+/*-- フォントサイズ変更 --*/
+#font-size-changer{}
+#font-size-changer ul li{background:none;padding:0;text-align:center;border:none;}
+#font-size-changer a {color:#eaff00;text-decoration:underline;}
+#font-size-changer a:link:hover {color:#ffffff;text-decoration:none;}
+#font-size-changer a:link:active {color:#ffffff;text-decoration:none;}
+#font-size-changer a:visited {color:#eaff00;text-decoration:underline;}
+
+
+
+/*-- オリジナルモジュールがメインエリアに来た場合-*/
+#mod-freearea-main{background:#ffffff;border: solid 1px #009845;}
+#mod-freearea-main .mod-entry-set-top{background:url(/img/template/user/1020/entry_ct.gif) repeat-x left top;}
+#mod-freearea-main .mod-entry-set-top div.lt{}
+#mod-freearea-main .mod-entry-set-top div.rt{}
+#mod-freearea-main .mod-entry-set-bottom{}
+#mod-freearea-main .mod-entry-set-bottom .lb{}
+#mod-freearea-main .mod-entry-set-bottom .rb{background:url(/img/template/user/1020/entry_rb.gif) no-repeat right bottom; height:17px;}
+#mod-freearea-main .entry .entry-top h3{font-size:120%; color:#333333; line-height:1.1; text-align:left; padding:31px 15px 14px 30px; background:url(/img/template/user/1020/mod_free_line.gif) repeat-x left bottom;}
+#mod-freearea-main .entry .entry-body{}
+#mod-freearea-main .entry .entry-bottom{display:none;}
+
+/*-- ■SECTION 120 HYBRID 設定 --*/

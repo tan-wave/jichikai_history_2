@@ -1,0 +1,14 @@
+﻿/*強調*/
+del.y1950,del.y1950 *{
+	color:#FF0000;
+	text-decoration:line-through;
+}
+ins.y1950,ins.y1950 *{
+	color:#0000FF;
+	text-decoration:underline overline;
+}
+strong.y1950,strong.y1950 *{
+	color:#DD00FF;
+	font-weight:100;
+	text-decoration:underline;
+}

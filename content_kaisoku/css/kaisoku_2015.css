@@ -1,0 +1,14 @@
+﻿/*強調*/
+del.y2015,del.y2015 *{
+	color:#FF0000;
+	text-decoration:line-through;
+}
+ins.y2015,ins.y2015 *{
+	color:#0000FF;
+	text-decoration:underline overline;
+}
+strong.y2015,strong.y2015 *{
+	color:#DD00FF;
+	font-weight:100;
+	text-decoration:underline;
+}

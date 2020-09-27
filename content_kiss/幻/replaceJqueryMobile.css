@@ -1,0 +1,33 @@
+/*!
+* jQuery Mobile 1.4.5
+* Git HEAD hash: 68e55e78b292634d3991c795f06f5e37a512decc <> Date: Fri Oct 31 2014 17:33:30 UTC
+* http://jquerymobile.com
+*
+* Copyright 2010, 2014 jQuery Foundation, Inc. and othercontributors
+* Released under the MIT license.
+* http://jquery.org/license
+*
+*/
+
+/* このプログラムは上記のようにライセンスされているプログラムをMIT licenseに従い改造したものを含みます。
+https://opensource.org/licenses/mit-license.php
+
+ただし、元の「KISS ～Kishi-Kho Information Serving System～」に対しては、改造・再配布の許可を取っていません。 */
+
+.anctionArea{
+	min-height: calc(100vh - 49px - 40px);
+}
+body>div{
+	padding-bottom: 49px;
+}
+#page,#page0{
+	/* IE非対応、大きい影響は無い */
+	min-height:initial;
+}
+
+.anctionArea p{
+	text-align: left;
+}
+.anctionArea img{
+	display: inline-block;
+}

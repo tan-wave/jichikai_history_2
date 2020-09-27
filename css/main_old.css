@@ -1,0 +1,134 @@
+/* 全体 */
+html{
+	font-family:"メイリオ","游ゴシック","Yu Gothic",“游ゴシック体”, YuGothic,sans-serif;
+	font-size:15px;
+	line-height:1.6;	/*1.6emだと「15*1.6=24px」、1.6だと「その場所のフォントの1.6倍」として継承される*/
+	margin:0 auto;
+}
+
+
+/* ヘッダー */
+header{
+	position:fixed;
+	margin:0;
+	color:#333;
+	background:#C6FFC6;
+	background:linear-gradient(to right, #C6FFC6, #EEFFEE);
+	font-size:0;
+}
+h1{
+	display:inline;
+	vertical-align:middle;
+	font-size:28px;
+	line-height:60px;
+	font-weight:400;
+}
+.to_top,.reverse{
+	vertical-align:middle;
+	font-size:1rem;
+}
+
+
+/* 文章部分 */
+main{
+	margin-top:60px;
+	padding:5px;
+	display:inline-block;
+}
+section{
+	margin-bottom:18px;
+}
+
+
+/* 見出し */
+section>*:not(a):not(section):not(h2):not(h3):not(h4):not(h5):not(h6){
+	margin-left:20px;
+	margin-right:10px;
+}
+h2{
+	margin:10px 0px;
+	border-left:5px solid #8E8;
+	border-bottom:3px dotted #8E8;
+	padding-left:15px;
+	font-size:20px;
+}
+h3{
+	margin:0.75rem 0.5rem 0.5rem 1rem;
+	border-bottom:2px dashed #999;
+	padding-left:0.5rem;
+	font-size:18px;
+}
+
+.midashi4{
+	margin:5px;
+	border-bottom:1px dotted #CCC;
+	padding-left:5px;
+	font-size:16px;
+}
+.midashi4 *{
+	display:inline-block;
+	margin-right:10px;
+}
+h5{
+	margin:5px 0;
+	border-bottom:1px dotted #CCC;
+}
+
+
+/* テキスト装飾 */
+
+	/* 画像呼び出しのほか、クリックすると表示する仕掛けに使用 */
+span[onclick]{
+	color:#0000FF;
+	text-decoration: underline;
+}
+
+	/* ギャラリーページ用 */
+.gallery_ul_photo h3{
+	margin-left: -20px;
+}
+.gallery_ul_photo li{
+	margin-left: 1em;
+}
+.gallery_ul_photo li *{
+	margin-left: 1em;
+}
+.gallery_ul_photo li span{
+	color:#000;
+	background-color: rgba(64, 255, 64, 0.3);
+	margin: 0 0.25em;
+	padding: 0 0.5em;
+	text-decoration: underline;
+}
+.gallery_ul_photo li span:first-child{
+	margin-left:0;
+}
+/* クリックすると表示する仕掛けに使用 */
+p[id~="a"]{
+	display:none;
+}
+
+	/* その他 */
+.himitsu{
+	text-decoration: line-through;
+}
+
+section>*{
+	/* text-indent: 1em; */
+	margin-top:0.8rem;
+}
+ul{
+	list-style-type: circle;
+}
+.ul_headline{
+	list-style: none;
+}
+ul>li{
+	margin-left:1em;
+}
+ol>li{
+	margin-left: 2em;
+}
+.index_li{
+	margin-bottom: 0.5em;
+}

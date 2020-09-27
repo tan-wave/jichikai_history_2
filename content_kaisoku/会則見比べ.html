@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/kaisoku_mikurabe_2.css">
+	<title>会則見比べ</title>
+
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>
+	$(function(){
+		$('#left_co').on('load', function(){
+			$('#left_co').contents().find('body').css('font-size','100px');
+		});
+	});
+	</script>
+</head>
+<body>
+<!-- <body onload="start()"> -->
+<p>会則の見比べができます。</p>
+<form id="decide" name="decide">
+	<select id="left">
+		<option value="1950">1950年</option>
+		<option value="1986">1986年4月</option>
+		<option value="2005">2005年</option>
+		<option value="2015">2015年</option>
+		<option value="2016">2016年4月</option>
+		<option value="2018">2018年4月</option>
+	</select>
+	<select id="right">
+		<option value="1950">1950年</option>
+		<option value="1986">1986年4月</option>
+		<option value="2005">2005年</option>
+		<option value="2015">2015年</option>
+		<option value="2016">2016年4月</option>
+		<option value="2018">2018年4月</option>
+	</select>
+	<button onclick="decides()" form="decide" type="button">決定</button>
+</form>
+
+<div class="main">
+<div class="content">
+	<iframe id="left_co" src=""></iframe>
+</div>
+
+<div class="content">
+	<iframe id="right_co" src=""></iframe>
+</div>
+</div>
+
+<script type="text/javascript">
+function decides(){
+	var left = document.getElementById("left").value;
+	var right = document.getElementById("right").value;
+
+	
+	if(left!=right){
+		if(left!=1950&&right!=1950){
+			document.getElementById("left_co").src  = "./deco/会則_"+left +"vs"+right+".html";
+			document.getElementById("right_co").src = "./deco/会則_"+right+"vs"+left +".html";
+		}else{
+			document.getElementById("left_co").src  = "./deco/会則_"+left +".html";
+			document.getElementById("right_co").src = "./deco/会則_"+right+".html";
+		}
+	}else{
+		alert("左の選択欄と右の選択欄の年が同じです！")
+	}
+}
+</script>
+</body>
+</html>

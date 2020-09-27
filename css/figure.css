@@ -1,0 +1,141 @@
+/* 図表を使用するときのみ使用するプロパティ */
+main{
+	width:55%;
+}
+figure{
+	width:45%;
+}
+
+/*図表*/
+	/*全体の枠*/
+	figure > div{
+		position: sticky;
+		top:1.6rem;
+		border:5px solid #0F0;
+		padding:10px;
+		background-color: #fff;
+		text-align:center;
+		font-size:16px;
+		line-height:35px;
+	}
+
+	/* パーツ部分 */
+	#fig_title_frame,#fig_operate_frame{
+		border:1px solid #AAA;
+	}
+	#fig_title_frame{
+		border-bottom:none;
+	}
+	#fig_title{
+		min-height:35px;
+	}
+	#fig_operate_frame{
+		display:table;
+		width:100%;
+		height:35px;
+		background-color:#F2F2F2;
+		margin-bottom: 10px;
+	}
+	#fig_img_frame{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		height:calc(100vh - 1.6rem /*header*/ - 30px /*figureのborder,padding*/ - 81px /*figcaptionとmargin-bottom*/);
+	}
+	#fig_img{
+		max-width:100%;
+		max-height: 100%;
+	}
+
+	/* 前後移動_ギャラリーのみ */
+	#fig_move_previous,#fig_move_following{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top:0;
+		width: 100px;
+		height: 100%;
+		background-color: transparent;
+	}
+	#fig_move_previous{
+		left:0;
+	}
+	#fig_move_following{
+		right:0;
+	}
+	#fig_move_previous:hover,#fig_move_following:hover{
+		background-color: #F8F8F8AA;
+	}
+	#fig_move_previous>img,#fig_move_following>img{
+		display: none;
+		width:60px;
+	}
+	#fig_move_previous:hover>img,#fig_move_following:hover>img{
+		display: inline;
+	}
+
+	/*個々のボタン*/
+	.fig_button{
+		display:table-cell;
+		height:33px;
+		line-height:33px;
+		border:none;
+		border-right:1px solid #AAA;
+		padding:0;
+		vertical-align:middle;
+		background-color:inherit;
+		font-size:inherit;
+		font-family:inherit;
+	}
+	#fig_operate_frame>.fig_button:last-child{
+		border-right:none;
+	}
+	.fig_button>button{
+		display:block;
+		width:100%;
+		height:33px;
+		border:none;
+		padding:0;
+		background-color:inherit;
+		font-size:inherit;
+		font-family:inherit;
+	}
+	.fig_button:hover{
+		background-color:#D4FFD4;
+	}
+	.fig_button:active{
+		background-color:#AAFFAA;
+	}
+	.fig_button_favorite_img{
+		margin:5px;
+		width:23px;
+	}
+
+	/*お気に入りリスト*/
+	#fig_favorite_list{
+		display: none;
+		position:fixed;
+		top: 145px;
+		width: 20em;
+		max-height: 280px;
+		border:1px solid #999;
+		overflow-y: scroll;
+		font-size:14px; 
+	}
+	#fig_favorite_list li{
+		height: 35px;
+		border-bottom: 1px solid #AAA;
+		background-color: #F2F2F2;
+		list-style: none;
+		overflow: hidden;
+	}
+	#fig_favorite_list li:hover{
+		background-color: #D4FFD4;
+	}
+	#fig_favorite_list li:active{
+		background-color: #AAFFAA;
+	}
+
+/*図表ここまで*/

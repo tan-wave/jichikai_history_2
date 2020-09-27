@@ -1,0 +1,164 @@
+﻿/*2005年の生徒手帳のレイアウト*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-text-size-adjust: 100%;
+}
+html{
+	margin:0px auto;
+	font-family:"ＭＳ ゴシック";
+	line-height:1.5em;
+}
+#setumei,nav{
+	width:100%;
+	text-align:center;
+	margin-bottom:20px;
+}
+main{
+	font-size:0px;
+	margin-bottom:50px;
+}
+.content{
+	display:inline-block;
+	border:1px solid #FF0000;
+	padding:0 4px;
+	vertical-align:top;
+}
+/*表*/
+.setumei2{
+	margin:10px auto;
+	width:600px;
+	text-align:left;
+	line-height:1.5;
+}
+table,table *{
+	border:1px solid #000000;
+	border-collapse: collapse;
+	text-align:center;
+}
+.narrow{
+	width:125px
+}
+.wide{
+	width:175px;
+}
+
+/*見出し*/
+h1{
+	display:block;
+	padding:18px 0;
+	text-align:center;
+	font-size:1.5em;
+	line-height:1em;
+}
+h2{
+	padding-bottom:20px;
+	font-size:1.33em;
+	font-weight:900;
+}
+h3.bekkou_t{
+	display:block;
+	margin:40px auto 20px;
+	text-align:center;
+	font-size:1.5em;
+}
+h3{
+	margin-left:4em;
+	font-size:1em;
+	font-weight:900;
+}
+/*吊り下げ*/
+section dt,section dd{
+	display:inline-block;
+	vertical-align:top;
+}
+/*幅*/
+.honbun dt{
+	width:4em;
+}
+.bekkou dt{
+	width:1em;
+}
+section dd dt{
+	width:1em!important;
+}
+.honbun dd{
+	width:16em;	/*20-3-1*/
+}
+.bekkou dd{
+	width:19em;	/*20-1*/
+}
+.honbun dd dd{
+	width:15em;	/*20-4-1*/
+}
+.bekkou dd dd{
+	width:18em;	/*20-1-1*/
+}
+.honbun dd dd:first-letter,.bekkou dd dd:first-letter{
+	font-size:0.4em;
+	vertical-align:top;
+}
+/*強調部分*/
+del,ins,strong{
+	font-weight:100;
+	text-decoration:none;
+}
+#setumei del{
+	color:#FF0000;
+	text-decoration:line-through;
+}
+#setumei ins{
+	color:#0000FF;
+	text-decoration:underline overline;
+}
+#setumei strong{
+	color:#DD00FF;
+	font-weight:100;
+	text-decoration:underline;
+}
+
+/*760px以上*/
+@media screen and (min-width: 760px){
+html{
+	width:370px;
+	font-size:18px;
+}
+.content{
+	width:370px;			/*(18*20+10)pxで岸高手帳とほぼ同じ*/
+	font-size:18px;
+}
+}
+/*759px以下、520px以上*/
+@media screen and (max-width: 759px) and (min-width:500px){
+html{
+	width:290px;
+	font-size:14px;
+}
+.content{
+	width:290px;			/*(14*20+10)pxで岸高手帳とほぼ同じ*/
+	font-size:14px;
+}
+}
+/*499px以下、360px以上*/
+@media screen and (max-width: 499px) and (min-width:360px){
+html{
+	width:210px;
+	font-size:10px;
+}
+.content{
+	width:210px;			/*(10*20+10)pxで岸高手帳とほぼ同じ*/
+	font-size:10px;
+}
+}
+/*359px以下*/
+@media screen and (max-width: 359px){
+html{
+	width:190px;
+	font-size:9px;
+}
+.content{
+	width:190px;			/*(9*20+10)pxで岸高手帳とほぼ同じ*/
+	font-size:9px;
+}
+}

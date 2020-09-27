@@ -1,0 +1,843 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<title>201803会則改正 現状と当初案の比較 第1案第4判</title>
+	<link rel="stylesheet" type="text/css" href="tipso/tipso.min.css">
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<script src="./js/html5shiv.js"></script>
+	<script type="text/javascript" src="tipso/tipso.min.js"></script>
+	<script>
+		jQuery(document).ready(function(){
+			jQuery('.tipso').tipso({
+				position: 'right',//ツールチップの位置
+				background: 'rgba(0,0,0,0.8)',//ツールチップの背景色
+				useTitle: true,
+				width       : 200,//幅
+			});
+		});
+	</script>
+
+<!--script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/selectivizr.js"></script>
+	<script src="js/respond.min.js"></script-->
+	<style>
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-text-size-adjust: 100%;
+}
+html{
+	margin: 20px auto 0px;
+	font-family:"ＭＳ ゴシック";
+	line-height:1.5em;
+}
+#setumei,#nav{
+	width:100%;
+	text-align:center;
+	margin-bottom:20px;
+}
+.main{
+	font-size:0px;
+	margin-bottom:50px;
+}
+.content{
+	display:inline-block;
+	border:1px solid #FF0000;
+	padding:0 4px;
+	vertical-align:top;
+}
+/*表*/
+.setumei2{
+	margin:10px auto;
+	width:600px;
+	text-align:left;
+	line-height:1.5;
+}
+table,table *{
+	border:1px solid #000000;
+	border-collapse: collapse;
+	text-align:center;
+}
+.narrow{
+	width:125px
+}
+.wide{
+	width:175px;
+}
+
+/*見出し*/
+h1{
+	display:block;
+	padding:18px 0;
+	text-align:center;
+	font-size:2em;
+	line-height:1em;
+}
+h2{
+	padding-bottom:20px;
+	font-size:1.5em;
+	font-weight:900;
+}
+h3.bekkou_t{
+	display:block;
+	margin:40px auto 20px;
+	text-align:center;
+	font-size:1.5em;
+}
+h3{
+	margin-left:3em;
+	font-size:1em;
+	font-weight:900;
+}
+/*吊り下げ*/
+.section dt,.section dd{
+	display:inline-block;
+	vertical-align:top;
+}
+/*幅*/
+.honbun dt{
+	width:4em;
+}
+.bekkou dt{
+	width:1em;
+}
+.section dd dt{
+	width:1em!important;
+}
+.honbun dd{
+	width:31em;
+}
+.bekkou dd{
+	width:34em;
+}
+.honbun dd dd{
+	width:30em;
+}
+.bekkou dd dd{
+	width:33em;
+}
+/*強調部分*/
+del,ins,strong{
+	font-weight:100;
+	text-decoration:none;
+}
+#setumei del,
+.ver2015 del.a1,
+.ver2015 del.a1 *{
+	color:#FF0000;
+	text-decoration:line-through;
+}
+#setumei ins,
+.ver2017 ins.b1,
+.ver2017 ins.b1 *{
+	color:#0000FF;
+	text-decoration:underline overline;
+}
+#setumei strong,
+.ver2015 strong.a1,
+.ver2015 strong.a1 *,
+.ver2017 strong.b1,
+.ver2017 strong.b1 *{
+	color:#DD00FF;
+	font-weight:100;
+	text-decoration:underline;
+}
+
+/*1300px以上*/
+@media screen and (min-width: 1300px){
+html{
+	width:1280px;
+	font-size:18px;
+}
+.content{
+	width:640px;			/*(18*35+10)pxで岸高手帳とほぼ同じ*/
+	font-size:18px;
+}
+}
+/*1300px以下、1020px以上*/
+@media screen and (max-width: 1299px) and (min-width:360px){
+html{
+	width:1000px;
+	font-size:10px;
+}
+.content{
+	width:500px;			/*(10*35+10)pxで岸高手帳とほぼ同じ*/
+	font-size:14px;
+}
+}
+/*1020px以下、360px以上*/
+@media screen and (max-width: 1299px) and (min-width:360px){
+html{
+	width:720px;
+	font-size:10px;
+}
+.content{
+	width:360px;			/*(10*35+10)pxで岸高手帳とほぼ同じ*/
+	font-size:10px;
+}
+}
+/*359px以下*/
+@media screen and (max-width: 359px){
+html{
+	width:650px;
+	font-size:9px;
+}
+.content{
+	width:325px;			/*(9*35+10)pxで岸高手帳とほぼ同じ*/
+	font-size:9px;
+}
+}
+	</style>
+<!--[if lte IE 8]>
+	<style>
+html{
+	width:720px;
+	font-size:10px;
+}
+.content{
+	width:360px;			/*(10*35+10)pxで岸高手帳とほぼ同じ*/
+	font-size:10px;
+}
+	</style>
+<![endif]-->
+<!--[if lte IE 7]>
+	<style>
+html{
+	width:740px;	/*box-sizingはIE7以下で無効*/
+}
+.content,.section dt,.section dd{
+	zoom: 1;
+	display: inline!important;
+}
+
+	</style>
+<![endif]-->
+</head>
+
+<body>
+<div id="setumei">
+<h1>201803会則改正 現状と第1案の比較 第4判</h1>
+<p>
+	左が現在の生徒自治会々則、右が改正後のものとなっています。<br>
+	<strong>紫色が変更点を、</strong><ins style="display:inline;">青色は追加点を、</ins><del style="display:inline;">赤色が削除点を</del>表しています。<br>
+	下に点線が引かれているところをタッチ・マウスオンすると改正についての説明が表示されます。<br>
+	(Internet Explorerの場合は、バージョン９以降のみ)<br>
+	また、合わせて生徒相談室の説明文章の変更も提案させて頂きます。
+</p>
+<br>
+スマホの場合は横持ち推奨です。<br>
+<br>
+<p class="setumei2">主な変更点<br>
+・執行委員会の名称を執行部に変更、構成を実情に合った形に変更（第２章第９項）<br>
+・学級委員に関連する規定を追加（第２章第１２項）<br>
+・選挙の規定に信任投票の内容を追加（第３章第17項）
+</p>
+</div>
+<div id="nav">
+<nav>
+<a href="#dai1">第１章</a>
+<a href="#dai2">第２章</a>
+<a href="#dai3">第３章</a>
+<a href="#dai4">第４章</a>
+<a href="#dai5">第５章</a>
+<a href="#dai6">第６章</a>
+<a href="#bekkou">別項</a>
+<a href="#soudan">生徒相談室</a>
+<a href="#hyouki">表記ゆれについて</a>
+</nav>
+</div>
+
+<div class="main">
+<div class="content ver2015">
+<h1>現在</h1>
+<h2>７．生徒自治会々則</h2>
+<div class="section honbun"><section class="honbun">
+<a id="dai1"></a>
+<h3>第１章　総　　則</h3>
+<div class="section"><section>
+	<dl><dt>第１条</dt><dd>本会は大阪府立岸和田高等学校生徒自治会と称する。</dd></dl>
+	<dl><dt>第２条</dt><dd>本会は大阪府立岸和田高等学校生徒の福祉増進のため、会員相互の協力により、学校生活の民主化並びに進歩向上を図る事を目的とする。</dd></dl>
+</section></div>
+<a id="dai2"></a>
+<h3>第２章　組織及び構成</h3>
+<div class="section"><section>
+	<dl><dt>第３条</dt><dd>本会会員は大阪府立岸和田高等学校の生徒とする。</dd></dl>
+	<dl><dt>第４条</dt><dd>校長は本会の<strong class="a1">活動の一切</strong>に対して最終決定権を<strong class="a1">有する</strong>。</dd></dl>
+	<dl><dt>第５条</dt><dd>
+		本会には次の役員を<strong class="a1">おく</strong>。
+		<strong class="a1"><dl><dt>１</dt><dd>．会長１、副会長１、書記１、会計１<strong class="b2">。</strong></dd></dl></strong>
+				<br><br><br><br>
+		<dl><dt>２</dt><dd>．会長は自治会の長となり業務を統轄する。</dd></dl>
+		<dl><dt>３</dt><dd>．副会長は会長を補佐し、会長不在あるいは職務遂行不能の場合はこれに<strong class="a1">代る</strong>。<br>
+			<strong class="a1">尚</strong><strong class="b2">、</strong>副会長は自治会を代表してクラブ連絡会に出席する。</dd></dl>
+		<dl><dt>４</dt><dd>．書記は自治会の文書、記録、報告等の事務を取り扱う。<br>
+			<strong class="a1">尚</strong>、書記は<strong class="a1">必要<strong class="b2">の</strong>ある際は</strong><strong class="a1">学年執行委員</strong>の<!--
+				--><strong class="a1">中</strong>、<strong class="a1">若干名</strong>に文書係を<strong class="a1">委嘱</strong>する事が<strong class="a1">出来る</strong>。</dd></dl>
+		<dl><dt>５</dt><dd>．会計は自治会の会計を<strong class="a1">取扱う</strong>。</dd></dl>
+		<dl><dt>６</dt><dd>．役員の選出方法は第３章に規定する。</dd></dl>
+	</dd></dl>
+
+	<dl><dt>第６条</dt><dd>教員顧問
+		<dl><dt>１</dt><dd>．教員中より自治会顧問を<strong class="a1">若干名</strong>置く。</dd></dl>
+		<dl><dt>２</dt><dd>．自治会顧問は自治会の諮問機関となり、自治会の活動を助成する。</dd></dl>
+		<dl><dt>３</dt><dd>．自治会顧問は自治会の議会、執行<strong class="a1">委員会</strong>並びに、クラブ連絡会に出席し、指導助言する。</dd></dl>
+		<dl><dt>４</dt><dd>．各委員会には<strong class="b2">それぞれ</strong>１名の教員顧問を置く。委員会顧問は<strong class="b2">それぞれ</strong>の委員会に出席し、指導助言する。</dd></dl>
+		<dl><dt>５</dt><dd>．各学級担任はその学級自治会の顧問となり指導助言する。</dd></dl>
+	</dd></dl>
+
+	<dl><dt>第７条</dt><dd>本会には次の機関を置く。<br>
+		議会、執行<strong class="a1">委員会</strong>、自治会委員会、学級自治会、クラブ連絡会</dd></dl>
+
+	<dl><dt>第８条</dt><dd>議会
+		<dl><dt>１</dt><dd>．議会は本会の目的遂行に要する権限を与えられる。</dl>
+		<dl><dt>２</dt><dd>．議会は次の<strong class="a1">もの</strong>によって構成される。<br>
+			(イ)役員<br>
+			(ロ)各学級より２名<strong class="a1">宛</strong>選出された代議員</dd></dl>
+		<dl><dt>３</dt><dd>．代議員の選出方法は<strong class="a1">別</strong>に規定する。</dd></dl>
+		<dl><dt>４</dt><dd>．議会の構成員は、発言権<del class="a1">及び<strong class="b2">票</strong>決権</del>を<strong class="a1">有する</strong>。</dd></dl>
+		<dl><dt>５</dt><dd>．議会<strong class="a1">は会長が<strong class="b2">これ</strong>を招集する</strong>。<strong class="a1">又</strong>全代議員の３分の１以上が<!--
+			-->開催を要請したときも会長は<strong class="b2"><strong class="a1">これ</strong></strong>を招集しなければならない。</dd></dl>
+		<dl><dt>６</dt><dd>．会長は議会に<strong class="b2">おいて</strong>決議<strong class="b1">された</strong>事項を<strong class="b2">速やかに</strong>自治会員全体に発表<strong class="a1">せねばならない</strong>。</dd></dl>
+		<ins class="b2"><dl><dt>７</dt><dd>．各機関は必要に応じて参考人の議会への出席を要請できる。参考人は代議員と同等の発言権をもつが、議決権・動議権は<strong class="a1">もたない</strong>。</dd></dl>
+		<dl><dt>８</dt><dd>．全会員は議会公開の原則に基づき傍聴人として議会に参加できる。傍聴人は議長が認めた場合のみ発言できるが、議決権・動議権は<strong class="a1">もたない</strong>。</dd></dl></ins>
+	</dd></dl>
+
+	<dl><dt>第９条</dt><dd>執行<strong class="a1">委員会</strong>
+		<dl><dt>１</dt><dd>．執行<strong class="a1">委員会</strong>は自治会の執行機関であって、議会の決議を執行する。</dd></dl>
+		<dl><dt>２</dt><dd>．執行<strong class="a1">委員会</strong>は<strong class="a1">下記の<strong class="a1">もの</strong></strong>によって構成<strong class="b1">される</strong>。<br>
+			(イ)役員<br>
+			<del class="a1">(ロ)代議員中各学年より１名宛選ばれた執行委員<br>
+			(ハ)自治会委員会の委員長</del></dd></dl>
+		<del class="a1"><dl><dt>３</dt><dd>．前項(ロ)に掲げられた執行委員の選出は各学年に<strong class="b2">おいて</strong>代議員の互選とする。</dd></dl></del>
+		<dl><dt>４</dt><dd>．執行<strong class="a1">委員会</strong>は<strong class="a1">必要時に</strong>会長が<del class="a1"><strong class="b2">これ</strong>を</del>招集する。</dd></dl>
+	</dd></dl>
+
+	<dl><dt>第10条</dt><dd>自治会委員会<br>
+		<dl><dt>１</dt><dd>．自治会に次の委員会を設ける。<br>
+			庶務委員会、文化委員会、<strong class="b1">体育委員会</strong></dd></dl>
+<br>
+		<dl><dt>２</dt><dd>．<strong class="a1">各委員会は委員長１、委員<strong class="a1">若干名</strong>を<strong class="b2">もって</strong>構成され、各委員会委員長は、<!--
+			-->各委員会委員中より互選によって選ばれる。</strong><del class="a1">但し会計委員会委員長は会計がこれを兼任する。</del></dd></dl>
+		<strong class="a1"><dl><dt>３</dt><dd>．代議員はすべて<strong class="b2">いずれか</strong>の委員会<strong class="b2">に所属する。</strong></dd></dl></strong>
+<br>
+		<dl><dt>４</dt><dd>．各委員会は<strong class="a1">適当な時期に</strong><strong class="b2">それぞれ</strong>の委員長が招集する。</dd></dl>
+		<dl><dt>５</dt><dd>．各委員会は<strong class="b2">それぞれ</strong>その名称に示された業務を行う。</dd></dl>
+	</dd></dl>
+
+	<dl><dt>第11条</dt><dd><strong class="a1">各学級に<strong class="b2">おいて</strong>代議員は必要時に</strong>学級自治会を招集する。</dd></dl>
+<br>
+	<dl><dt>第12条</dt><dd>学級委員<br>
+		学級に<strong class="b2">おいて</strong>、<ins class="b1">ＨＲ、保健、</ins>会計、<strong class="b1">図書、</strong>運動、厚生、集会の学級委員を置く。</dd></dl>
+<br><br><br><br><br>
+	<dl><dt>第13条</dt><dd>クラブ連絡会<br>
+		<dl><dt>１</dt><dd>．連絡会<strong class="a1">は副会長が<strong class="b2">これ</strong>を招集する。</strong><strong class="b1">また</strong>、<!--
+			-->クラブより開催の要請があった時も<strong class="a1"><strong class="b2">これ</strong>を招集する</strong>。</dd></dl>
+		<dl><dt>２</dt><dd>．連絡会に<strong class="b2">おいて</strong>副会長は連絡会の議長となり、議会に<strong class="b2">おける</strong>議事を説明し、各クラブの行事を調整する。</dd></dl>
+	</dd></dl>
+
+	<dl><dt>第14条</dt><dd><del class="a1">役員、</del>代議員、学級委員の任期は１期とする。<strong class="b1">(１年を４月～９月末日までの前期と10月～３月末日の後期の２期に分ける。)
+			ただし、保健委員、会計委員の任期については通年とする。また、役員については、<strong class="a1">選挙後から次の選挙</strong>までを任期とする。</strong>
+	</dd></dl>
+<br>
+	<dl><dt>第15条</dt><dd>役員の補充<br>
+		<dl><dt>１</dt><dd>．<strong class="a1">会長事故のため欠員となった際</strong>は副会長<ins class="b2">が</ins>直ちにその職を継ぎ任務を遂行するものとする。</dd></dl>
+		<dl><dt>２</dt><dd>．会長以外の役員、代議員、学級委員、<del class="a1">執行委員、</del>各委員会委員長に欠員を生じた場合に<strong class="b2">おいて</strong>は<!--
+			-->１週間以内に<strong class="b2">それぞれ</strong>の選出手続を経て<strong class="b2">これ</strong>を補充する。</dd></dl>
+	</dd></dl>
+</section></div>
+
+<a id="dai3"></a>
+<h3>第３章　選挙</h3>
+<div class="section"><section>
+	<dl><dt>第16条</dt><dd>役員選出に関する選挙権並びに被選挙権<strong class="a1">は全会員が有する</strong>。</dd></dl>
+	<dl><dt>第17条</dt><dd>役員選出規定<br>
+		<dl><dt>１</dt><dd>．会長、副会長、書記、会計は全校生徒中より立候補し、全校生徒の投票により決定される。<strong class="b1">ただし</strong>、立候補者の無い場合は<!--
+			-->議会に<strong class="b1">おいて</strong>、代議員中より候補者を選び、全校生徒の投票により決定する。</dd></dl>
+		<dl><dt>２</dt><dd>．<ins class="b2">原則、</ins>役員に選ばれた学級代議員を選出した学級は直ちに後任者の補欠選挙を<strong class="a1">せねば</strong>ならない。<!--
+			--><ins class="b2">ただし、運営上支障をきたすと判断され、役員が強く望む場合、役員と代議員を兼ねることもできる。</ins></dd></dl>
+		<del class="a1"><dl><dt>３</dt><dd>．学級代議員選出規定第３項より第10項までの規定を適用する。</dd></dl></del>
+	</dd></dl>
+	<dl><dt>第18条</dt><dd>学級代議員選出規定<br>
+		<dl><dt>１</dt><dd>．学級代議員は各学級より投票によって選出される。</dd></dl>
+		<dl><dt>２</dt><dd>．学校当局は選挙期日の１週間前に選挙の告示をしなければならない<ins class="b2">。</ins></dd></dl>
+		<dl><dt>３</dt><dd>．選挙の時期は<ins class="b1">原則として</ins>４月<strong class="b1">上旬</strong>、９月<strong class="b1">下旬</strong>の２回とする。</dd></dl>
+		<dl><dt>４</dt><dd>．立候補者及びその応援者は<strong class="a1">前項認可を受けた日</strong>から<strong class="a1">選挙の前日</strong>まで<!--
+			-->候補者の手腕及び所見をできるだけ多数の生徒に知らせるために演説会、学校新聞、集会などを利用して選挙運動をすることが<strong class="a1">出来る</strong>。<!--
+			--><strong class="a1">但し</strong><del class="a1">選挙運動のために饗応する等の費用をかけることは<strong class="a1">出来ない</strong>。<!--
+			-->また</del>選挙運動<strong class="a1">を利用して</strong>特定の政党を支持<strong class="a1">し、<!--
+			-->またこれに</strong>反対するための政治活動を<strong class="a1">してはならないことは教育基本法によって定められているところである。</strong></dd></dl>
+		<dl><dt>５</dt><dd>．候補者は選挙人に物品供与その他不当の利益を与える約束をして得票してはならない。</dd></dl>
+<br><br><br>
+		<dl><dt>６</dt><dd>．投票は無記名とし<strong class="a1">一人の候補者を記名するものとする。</strong></dd></dl>
+<br><br>
+		<dl><dt>７</dt><dd>．得票数が有効投票数の過半数に達した際<strong class="a1">及び得票数が過半数に達しなくとも</strong>、
+			次位者との差が有効投票数の５％以上になる時には当選を確定する。<strong class="b2">５％に満たない</strong>時には次位者との間に決選投票を行うものとする。</dd></dl>
+		<dl><dt>８</dt><dd>．得票数同数の際は決選投票により得票数の多い者を当選とする。</dd></dl>
+<br><br>
+		<dl><dt>９</dt><dd>．被選挙者の氏名の判別<strong class="a1">し難い</strong>投票は無効とする。</dd></dl>
+<br>
+		<dl><dt>10</dt><dd>．本規定に違反した者は懲罰<strong class="b1">される</strong>ことがある。</dd></dl>
+	</dd></dl>
+
+	<dl><dt>第18条</dt><dd>学級代議員選出規定（比較のため再掲）<br>
+		<dl><dt>１</dt><dd>．学級代議員は各学級より投票によって選出される。</dd></dl>
+		<strong class="a1"><dl><dt>２</dt><dd>．学校当局は選挙期日の１週間前に選挙の告示をしなければならない。</dd></dl></strong>
+		<dl><dd>３～10は略</dd></dl>
+	</dd></dl>
+
+	<dl><dt>第19条</dt><dd>学級委員選出規定<br>
+		<dl><dt>１</dt><dd>．学級委員は代議員選挙の直後同日中に<del class="a1"><strong class="b2">これ</strong></del>を選出する。</dd></dl>
+		<dl><dt>２</dt><dd>．学級委員は<strong class="a1">役員及び代議員を含む</strong>学級自治会員で互選によって選出<strong class="b1">される</strong>。</dd></dl>
+		<dl><dt>３</dt><dd>．選出方法は各学級随意とする。</dd></dl>
+		<dl><dt>４</dt><dd>．選出<strong class="b1">された</strong>学級委員は互選<strong class="b2">あるいは</strong>適当な方法により<strong class="b2">それぞれ</strong><!--
+			--><ins class="b1">ＨＲ、保健、</ins>会計、<strong class="b1">図書、</strong>運動、厚生、集会委員となる。</dd></dl>
+	</dd></dl>
+<br>
+	<dl><dt>第20条</dt><dd>選挙管理規定<br>
+<br>
+		<dl><dt>１</dt><dd>．<del class="a1">学校当局は、選挙管理委員会の構成に当って、</del>各クラスより１名ずつ<strong class="a1">委員を選ぶ手続を<strong class="b2">とる</strong>ものとする。</strong><!--
+			-->選挙管理委員の任期は１年とする。</dd></dl>
+		<dl><dt>２</dt><dd>．委員長は<strong class="a1">、各クラスより選ばれた委員中より</strong>互選により<strong class="a1">決定する</strong>。</dd></dl>
+		<del class="a1"><dl><dt>３</dt><dd>．選挙管理委員会が構成されると同時に、選挙管理事務に関する一切の責任は管理委員会が負うものとする。</dd></dl></del>
+		<dl><dt>４</dt><dd>．選挙管理委員は代議員、役員を兼ねることができない。</dd></dl>
+		<dl><dt>５</dt><dd>．選挙管理委員会は業務遂行の助成者として教員の<strong class="a1">若干名</strong>に顧問を<strong class="a1">委嘱</strong>することができる。</dd></dl>
+		<dl><dt>６</dt><dd>．選挙管理委員会は、学級代議員<strong class="a1">選出から役員選出までの</strong>選挙管理に関して、一切の責務及び権限を<strong class="a1">有する</strong>。</dd></dl>
+</dd></dl>
+</section></div>
+
+<a id="dai4"></a>
+<h3>第４章　会費及び経費</h3>
+<div class="section"><section>
+<dl>
+	<dt>第21条</dt><dd>本会の会費は、年<strong class="b2">1,700</strong>円とする。</dd>
+</dl>
+<dl>
+	<dt>第22条</dt><dd>会計の監査は<strong class="b2">年度末</strong>とする。</dd>
+</dl>
+<dl>
+	<dt>第23条</dt><dd>会長<strong class="a1">並びに</strong>会計は<strong class="b2">年度末</strong>に収支決算報告をしなければならない。</dd>
+</dl>
+<dl>
+	<dt>第24条</dt><dd><strong class="b2">年度末</strong>及び適当な時期に会計監査委員会<strong class="a1">は</strong>会計帳簿の検査をする。<!--
+		-->細則は<strong class="a1">別に示す</strong>。</dd>
+</dl>
+<dl>
+	<dt>第25条</dt><dd>経費の支出を要する際は議会の承認を経なければならない。<strong class="a1">但し</strong>急を要する場合には<!--
+		--><strong class="a1">20,000円未満5,000円以上の金額は執行委員会の承認により、また5,000円以内の金額は会計委員会に<!--
+		--><strong class="b2">おいて</strong></strong><strong class="b2">これ</strong>を支出し議会に事後承認を求める事が<strong class="a1">出来る</strong>。</dd>
+</dl>
+</section></div>
+
+<a id="dai5"></a>
+<h3>第５章　罰則</h3>
+<div class="section"><section>
+<dl>
+	<dt>第26条</dt><dd>役員、代議員、学級委員で品行不良<strong class="b2">あるいは</strong>役員、代議員、学級委員としての資格に欠ける行いのあった者に対しては、<!--
+		-->議会の４分の３以上の賛同によって<strong class="b2">これ</strong>を<strong class="a1">免ずることが出来る</strong>。</dd>
+</dl>
+</section></div>
+
+<a id="dai6"></a>
+<h3>第６章　附則</h3>
+<div class="section"><section>
+<dl>
+	<dt>第27条</dt><dd>本会則の修正、変更は議会の３分の２以上の是認を経た後、全会員の４分の３以上の是認を得て成立する。</dd>
+</dl>
+<dl>
+	<dt>第28条</dt><dd>本会則は<strong class="b2"><strong class="a1">1990年７月３日</strong></strong>に改正されその日より効力を発する。</dd>
+</dl>
+</section></div>
+
+</section></div>
+
+
+<a id="bekkou"></a>
+<h3 class="bekkou_t">会　則　別　項</h3>
+<div class="section bekkou"><section class="bekkou">
+<div class="section"><section>
+<dl><dt>(1)</dt><dd>　クラブ設置規定<br>
+	<dl><dt>１</dt><dd>．自治会にはクラブを設置する。</dd></dl>
+	<dl><dt>２</dt><dd>．クラブは会員相互の親善と心身鍛錬及び学芸研鑚を図る事を目的とする。</dd></dl>
+	<dl><dt>３</dt><dd>．クラブは文化クラブ、運動クラブに大別する。</dd></dl>
+	<dl><dt>４</dt><dd>．クラブ顧問として教員<strong class="a1">若干名</strong>を置かなければならない。</dd></dl>
+	<dl><dt>５</dt><dd>．クラブは<strong class="b2">年度末</strong>及び必要に応じ会計<strong class="b2">報告</strong>を<strong class="b1">庶務</strong>委員会に提出しなければならない。</dd></dl>
+</dd></dl>
+</section></div>
+
+<div class="section"><section>
+<dl><dt>(2)</dt><dd>　予算作成規定<br>
+	<dl><dt>１</dt><dd>．本予算は後期に次年度のものを決定する。</dd></dl>
+	<dl><dt>２</dt><dd>．予算作成については、原案を<ins class="b2">原則として</ins><strong class="a1">原案作成委員会</strong>に<strong class="b2">おいて</strong>作成し、<!--
+		-->執行<strong class="a1">委員会</strong>の承認を経た後、議会の審議を受けるものとする。<strong class="a1">但し</strong>予算原案作成委員会は<!--
+		--><strong class="b2">会計、<strong class="a1">会計</strong>委員</strong>に<strong class="b2">よって</strong>構成<strong class="a1">せられる</strong>。</dd></dl>
+<br><br>
+</dd></dl>
+</section></div>
+
+<div class="section"><section>
+<dl><dt>(3)</dt><dd>　会計監査委員会規定<br>
+	<dl><dt>１</dt><dd>．組織　会計監査委員は５人の監査委員<strong class="a1">を<strong class="b2">もって</strong></strong>構成される。</dd></dl>
+	<dl><strong class="a1"><dt>２</dt></strong><dd>．委員長の任命　会計監査委員会の長は監査委員の中から互選した<strong class="a1">もの</strong>について<!--
+		-->議会に<strong class="b2">おいて</strong><strong class="b2">これ</strong>を承認する。</dd></dl>
+	<dl><strong class="a1"><dt>３</dt></strong><dd>．監査委員の任命、任期　監査委員は執行<strong class="a1">委員会</strong>が議会の同意を経て指名する。任期は１年とする。</dd></dl>
+	<dl><dt>４</dt><dd>．監査<br>
+		(イ)会計監査委員会は、各クラブ、執行<strong class="a1">委員会</strong>その他一切の自治会会計に関する監査を行うものとする。<br>
+		(ロ)会計監査委員会は常時監査を行い、会計の適正を期し是正をはかる。</dd></dl>
+	<dl><dt>５</dt><dd>．会計監査委員は監査の結果を執行<strong class="a1">委員</strong>に報告し、会長並びに会計はそれをもとにして収支決算報告を議会に対して行う。</dd></dl>
+</dd></dl>
+</section></div>
+
+<div class="section"><section>
+<dl><dt>(4)</dt><dd>　議会運営規定<br>
+	<dl><dt>１</dt><dd>．任期中の代議員交替については選挙管理委員会の承認を要する。</dd></dl>
+	<dl><dt>２</dt><dd>．代議員は委任状をもって議会出席に<strong class="a1">かえる</strong>事はできない。</dd></dl>
+	<dl><dt>３</dt><dd>．議会開会中退場しようとする代議員は書記に申し出るものとする。</dd></dl>
+	<dl><dt>４</dt><dd>．議会は代議員総数の過半数の出席をもって成立する。</dd></dl>
+	<ins class="b1"><dl><dt>５</dt><dd>．議長は会長が務める。副会長が副議長として議長を補佐する。</dd></dl></ins>
+	<dl><dt>６</dt><dd>．議決は出席議員の過半数の賛成を要する。ただし会則修正案等重要案件は３分の２以上の賛成を要する。</dd></dl>
+	<dl><dt>７</dt><dd>．可否同数の場合は議長がこれを決する。</dd></dl>
+	<dl><dt>８</dt><dd>．議長事故の際は副議長が代行する。</dd></dl>
+<br>
+</dd></dl>
+</section></div>
+
+<ins class="b2">
+<div class="section"><section>
+<dl>
+	<dt>(5)</dt><dd>　会則別項の改正<br>
+	会則別項の改正は、議会の構成員の３分の２以上の賛成をもって行われる。</dd>
+</dl>
+</section></div>
+</ins>
+
+</section></div>
+
+<hr>
+<br>
+<div><section>
+<a id="soudan"></a>
+<h2>10．生徒相談室</h2>
+<p>
+３．その他<br>
+スクールカウンセラーの先生が年10回程度カウンセリングのために来校していただける制度もある。
+</p>
+</section></div>
+
+</div>
+
+
+
+<div class="content ver2017">
+<h1>改正版</h1>
+<h2>７．生徒自治会々則</h2>
+<div class="section honbun"><section class="honbun">
+<div class="section"><section>
+<h3>第１章　総　　則</h3>
+	<dl><dt>第１条</dt><dd>本会は大阪府立岸和田高等学校生徒自治会と称する。</dd></dl>
+	<dl><dt>第２条</dt><dd>本会は大阪府立岸和田高等学校生徒の福祉増進のため、会員相互の協力により、学校生活の民主化並びに進歩向上を図る事を目的とする。</dd></dl>
+</section></div>
+
+<div class="section"><section>
+<h3>第２章　組織及び構成</h3>
+	<dl><dt>第３条</dt><dd>本会会員は大阪府立岸和田高等学校の生徒とする。</dd></dl>
+	<dl><dt>第４条</dt><dd>校長は本会の<strong class="b1">すべての活動</strong>に対して<!--
+		-->最終決定権を<strong class="b1">持つ</strong>。</dd></dl>
+	<dl><dt>第５条</dt><dd><ins class="b1">役員</ins>
+		<dl><dt>１</dt><dd>．本会には次の役員を<strong class="b1">置く</strong>。<br>
+			<span class="tipso" title="第８条の表記に準ずる"><strong class="b1">(イ)会長………１名<br>(ロ)副会長……１名<br>(ハ)書記………１名<br>(ニ)会計………１名</strong></span>
+		</dd></dl>
+		<dl><dt>２</dt><dd>．会長は自治会の長となり<ins class="b1">、</ins>業務を統轄する。</dd></dl>
+		<dl><dt>３</dt><dd>．副会長は会長を補佐し、会長不在あるいは職務遂行不能の場合はこれに<strong class="b1">代わる</strong>。<br>
+			<span class="tipso" title="元の読みは「なお」だが文脈を考慮し「また」に変更"><strong class="b1">また</strong></span><ins class="b3">、</ins>副会長は自治会を代表してクラブ連絡会に出席する。</dd></dl>
+		<dl><dt>４</dt><dd>．書記は自治会の文書、記録、報告等の事務を取り扱う。<br>
+			<strong class="b1">なお</strong>、書記は<span class="tipso" title="5-4,9-3,10-4で表現を統一"><strong class="b1">必要に応じて</strong></span><!--
+			--><span class="tipso" title="対象範囲を拡大"><strong class="b1">代議員</strong>の<strong class="b1">うち</strong></span>、<!--
+			--><strong class="b1">数名</strong>に文書係を<strong class="b1">委任</strong>する事が<strong class="b1">できる</strong>。</dd></dl>
+		<dl><dt>５</dt><dd>．会計は自治会の会計を<strong class="b1">取り扱う</strong>。</dd></dl>
+		<dl><dt>６</dt><dd>．役員の選出方法は第３章<span class="tipso" title="明示化"><ins class="b1">第17条</ins></span>に規定する。</dd></dl>
+	</dd></dl>
+
+	<dl><dt>第６条</dt><dd>教員顧問<br>
+		<dl><dt>１</dt><dd>．教員中より自治会顧問を<strong class="b1">数名</strong>置く。</dd></dl>
+		<dl><dt>２</dt><dd>．自治会顧問は自治会の諮問機関となり、自治会の活動を助成する。</dd></dl>
+		<dl><dt>３</dt><dd>．自治会顧問は自治会の議会、<span class="tipso" title="第９条を参照">執行<strong class="b1">部</strong></span>並びに、クラブ連絡会に出席し、指導助言する。</dd></dl>
+		<dl><dt>４</dt><dd>．各委員会には<strong class="b3">それぞれ</strong>１名の教員顧問を置く。委員会顧問は<strong class="b3">それぞれ</strong>の委員会に出席し、指導助言する。</dd></dl>
+		<dl><dt>５</dt><dd>．各学級担任はその学級自治会の顧問となり<ins class="b1">、</ins>指導助言する。</dd></dl>
+	</dd></dl>
+
+	<dl><dt>第７条</dt><dd>本会には次の機関を置く。<br>
+		議会、<span class="tipso" title="第９条を参照">執行<strong class="b1">部</strong></span>、自治会委員会、学級自治会、クラブ連絡会</dd></dl>
+
+	<dl><dt>第８条</dt><dd>議会<br>
+		<dl><dt>１</dt><dd>．議会は本会の目的遂行に要する権限を与えられる。</dd></dl>
+		<dl><dt>２</dt><dd>．議会は次の<strong class="b1">者</strong>によって構成される。<br>
+			(イ)役員<br>
+			(ロ)各学級より２名<strong class="b1">ずつ</strong>選出された代議員</dd></dl>
+		<dl><dt>３</dt><dd>．代議員の選出方法は<span class="tipso" title="明示化"><strong class="b1">第３章第18条に</strong></span>に規定する。</dd></dl>
+		<dl><dt>４</dt><dd>．議会の構成員は、発言権<span class="tipso" title="第8項に準じ、表決権＝議決権のようなので二つを統一。"><ins class="b1">・議決権・動議権</ins></span>を<strong class="b1">持つ</strong>。</dd></dl>
+		<dl><dt>５</dt><dd>．議会<span class="tipso" title="「これ」をあまり使わないようにしています"><strong class="b1">の招集は会長が行う</strong></span>。<strong class="b1">また</strong>全代議員の３分の１以上が<!--
+			-->開催を要請したときも会長は<strong class="b1">議会</strong>を招集しなければならない。</dd></dl>
+		<dl><dt>６</dt><dd>．会長は議会に<strong class="b3">おいて</strong>決議<strong class="b2">された</strong>事項を<strong class="b3">速やかに</strong><!--
+			-->自治会員全体に発表<strong class="b1">しなければならない</strong>。</dd></dl>
+		<ins class="b3"><dl><dt>７</dt><dd>．各機関は必要に応じて参考人の議会への出席を要請できる。参考人は代議員と同等の発言権をもつが、議決権・動議権は<strong class="b1">持たない</strong>。</dd></dl>
+		<dl><dt>８</dt><dd>．全会員は議会公開の原則に基づき傍聴人として議会に参加できる。傍聴人は議長が認めた場合のみ発言できるが、議決権・動議権は<strong class="b1">持たない</strong>。</dd></dl></ins>
+	</dd></dl>
+
+	<dl><dt>第９条</dt><dd><span class="tipso" title="現状に合わせた名称及び構成の変更">執行<strong class="b1">部</strong></span><br>
+		<dl><dt>１</dt><dd>．<span class="tipso" title="現状に合わせた名称の変更">執行<strong class="b1">部</strong></span>は自治会の執行機関であって、議会の決議を執行する。</dd></dl>
+<br>
+		<dl><dt>２</dt><dd>．<span class="tipso" title="現状に合わせた構成の変更、委員長の招集は実務レベルで対応すればいいと判断">執行<strong class="b1">部</strong>は<!--
+			--><strong class="b1">役員及び文書係</strong>によって構成<strong class="b2">される</strong></span>。</dd></dl>
+<br>
+<br>
+<br>
+<br>
+<br>
+		<dl><dt>３</dt><dd>．<span class="tipso" title="現状に合わせた名称の変更">執行<strong class="b1">部</strong></span>は<!--
+			--><span class="tipso" title="5-4,9-3,10-4で表現を統一"><strong class="b1">必要に応じて</strong></span>会長が招集する。</dd></dl>
+	</dd></dl>
+
+	<dl><dt>第10条</dt><dd>自治会委員会<br>
+		<dl><dt>１</dt><dd>．自治会に次の委員会を設ける。<br>
+			庶務委員会、文化委員会、<ins class="b2">体育委員会</ins></dd></dl>
+<br>
+		<strong class="b1"><dl><dt>２</dt><dd>．<span class="tipso" title="旧10条3項より">各委員会は代議員<strong class="b1">数名</strong>及び<!--
+			-->役員<strong class="b1">数名</strong>によって構成され、役員及び代議員は全員いずれかの委員会に所属する。</span></dd></dl></strong>
+<br>
+		<strong class="b1"><dl><dt>３</dt><dd>．<span class="tipso" title="旧10条2項より">各委員会委員長は、各委員会委員中より互選によって選ばれる。</span></dd></dl></strong>
+<br>
+		<dl><dt>４</dt><dd>．各委員会は<span class="tipso" title="5-4,9-3,10-4で表現を統一"><strong class="b1">必要に応じて</strong></span><strong class="b3">それぞれ</strong>の委員長が招集する。</dd></dl>
+		<dl><dt>５</dt><dd>．各委員会は<strong class="b3">それぞれ</strong>その名称に示された業務を行う。</dd></dl>
+	</dd></dl>
+	<dl><dt>第11条</dt><dd><span class="tipso" title="具体的な目的の追加"><strong class="b1">代議員は必要に応じて各学級における<!--
+		-->自治会員の意思確認及び情報伝達のために、</strong></span>学級自治会を招集する。</dd></dl>
+
+	<dl><dt>第12条</dt><dd>学級委員<br>
+		<dl><dt>１</dt><dd>．<ins class="b1">各</ins>学級に<strong class="b3">おいて</strong>、<ins class="b3">ＨＲ、保健、</ins>会計、<!--
+			--><strong class="b2">図書、</strong>運動、厚生、集会<span class="tipso" title="分ける必要はないと判断"><ins class="b1">、岸高祭実行、体育祭</ins></span>の学級委員を置く。</dd></dl>
+		<ins class="b1"><dl><dt>２</dt><dd>．学級委員は、各学級においてその名称に示された業務を行う。</dd></dl></ins>
+		<ins class="b1"><dl><dt>３</dt><dd>．議会は必要に応じて全学級の各委員を招集して、専門委員会を開くことができる。</dd></dl></ins>
+		<ins class="b1"><dl><dt>４</dt><dd>．<span class="tipso" title="具体的には、代議員文化委員や運動委員が岸高祭や体育祭の専門委員会に携われるようにしたいです。"><!--
+			-->議会の構成員は傍聴人として専門委員会に参加することができる。</span></dd></dl></ins>
+	</dd></dl>
+
+	<dl><dt>第13条</dt><dd>クラブ連絡会<br>
+		<dl><dt>１</dt><dd>．連絡会<strong class="b1">の招集は副会長が行う。</strong><strong class="b2">また</strong>、クラブより開催の要請があった時も<!--
+			--><strong class="b1">副会長は連絡会を招集しなければならない</strong>。</dd></dl>
+		<dl><dt>２</dt><dd>．連絡会に<strong class="b3">おいて</strong>副会長は連絡会の議長となり、議会に<strong class="b3">おける</strong>議事を説明し、各クラブの行事を調整する。</dd></dl>
+	</dd></dl>
+
+	<dl><dt>第14条</dt><dd>代議員、学級委員の任期は１期とする。<strong class="b3">(１年を４月～９月末日までの前期と10月～３月末日の後期の２期に分ける。)<!--
+		--> ただし、保健委員、会計委員<span class="tipso" title="第12条1項を参照"><ins class="b1">、岸高祭実行委員、体育祭委員</ins></span>の任期については通年とする。また、役員については、<!--
+		--><span class="tipso" title="具体的な日程に、選挙日は第17条4項に規定あり"><strong class="b1">選挙日翌日から次の選挙日までを</strong>任期とする。</span></strong>
+	</dd></dl>
+
+	<dl><dt>第15条</dt><dd>役員の補充<br>
+		<dl><dt>１</dt><dd>．<strong class="b1">会長職に欠員を生じた場合</strong>は副会長<ins class="b3">が</ins>直ちにその職を継ぎ任務を遂行するものとする。</dd></dl>
+		<dl><dt>２</dt><dd>．<span class="tipso" title="第9条2項より役員+文書係＝執行部員なので">会長以外の役員、代議員、学級委員、各委員会委員長に</span>欠員を生じた場合に<!--
+			--><strong class="b3">おいて</strong>は１週間以内に<strong class="b3">それぞれ</strong>の選出手続を経て<strong class="b3">これ</strong>を補充する。</dd></dl>
+	</dd></dl>
+</section></div>
+
+<div class="section"><section>
+<h3>第３章　選挙</h3>
+	<dl><dt>第16条</dt><dd><strong class="b1">全会員は</strong>役員選出に関する選挙権並びに被選挙権<strong class="b1">を持つ</strong>。</dd></dl>
+	<dl><dt>第17条</dt><dd>役員選出規定<br>
+		<dl><dt>１</dt><dd>．会長、副会長、書記、会計は全校生徒中より立候補し、全校生徒の投票により決定される。<!--
+			--><strong class="b2">ただし</strong>、立候補者の無い場合は議会に<strong class="b2">おいて</strong>、代議員中より候補者を選び、全校生徒の投票により決定する。</dd></dl>
+		<dl><dt>２</dt><dd>．<ins class="b3">原則、</ins>役員に選ばれた学級代議員を選出した学級は直ちに後任者の補欠選挙を<strong class="b1">しなければ</strong>ならない。<!--
+			--><ins class="b3">ただし、運営上支障をきたすと判断され、役員が強く望む場合、役員と代議員を兼ねることもできる。</ins></dd></dl>
+<br><br>
+		<dl><dt>３</dt><dd>．学校当局は選挙期日の１週間前に選挙の告示をしなければならない<ins class="b3">。</ins></dd></dl>
+		<dl><dt>４</dt><dd>．選挙の時期は<ins class="b2">原則として</ins>４月<strong class="b2">上旬</strong>、９月<strong class="b2">下旬</strong>の２回とする。</dd></dl>
+		<dl><dt>５</dt><dd>．立候補者及びその応援者は<span class="tipso" title="そもそも前項ではない"><strong class="b1">告示日</strong></span>から<!--
+			--><span class="tipso" title="現状では立会演説は当日なので"><strong class="b1">選挙日当日</strong>まで</span><!--
+			-->候補者の手腕及び所見をできるだけ多数の生徒に知らせるために演説会、学校新聞、集会などを利用して選挙運動をすることが<strong class="b1">できる</strong>。<!--
+			--><strong class="b1">ただし、教育基本法により</strong>選挙運動<strong class="b1">において</strong><!--
+			-->特定の政党を支持<strong class="b1">、または</strong>反対するための政治活動<strong class="b1">を行うことは禁止されている。</strong></dd></dl>
+<br><br>
+		<dl><dt>６</dt><dd>．候補者は選挙人に物品供与その他不当の利益を与える約束をして得票してはならない。</dd></dl>
+		<ins class="b1"><dl><dt>７</dt><dd>．<span class="tipso" title="信任投票の規定追加">立候補者の人数が選定する役職の定員より多い場合、通常の投票を行う。<!--
+			-->立候補者の人数が選定する役職の定員以下である場合、信任投票を行う。</span></dd></dl></ins>
+		<dl><dt>８</dt><dd>．投票は無記名とし<span class="tipso" title="信任投票の規定追加"><strong class="b1">、通常の投票では各役職につき一人の候補者を記名するものとする。<!--
+			-->信任投票ではすべての候補者について、その候補者を信任するか否かについて記入する。</strong></span></dd></dl>
+		<dl><dt>９</dt><dd>．得票数が有効投票数の過半数に達した際<strong class="b1">、あるいは</strong>次位者との差が有効投票数の５％以上になる時には<!--
+			-->当選を確定する。<strong class="b3">５％に満たない</strong>時には次位者との間に決選投票を行うものとする。</dd></dl>
+<br>
+		<dl><dt>10</dt><dd>．得票数同数の際は決選投票により得票数の多い者を当選とする。</dd></dl>
+		<ins class="b1"><dl><dt>11</dt><dd>．<span class="tipso" title="信任投票の規定追加">信任選挙の場合、信任票が有効投票数の過半数に達した場合、候補者は信任されたものとする。</span></dd></dl></ins>
+		<dl><dt>12</dt><dd>．被選挙者の氏名<span class="tipso" title="信任投票の規定追加"><ins class="b1">及び被選挙者を信任するか否か</ins></span>の判別が<strong class="b1">困難な</strong>投票は無効とする。</dd></dl>
+		<dl><dt>13</dt><dd>．本規定に違反した者は懲罰<strong class="b2">される</strong>ことがある。</dd></dl>
+	</dd></dl>
+	<dl><dt>第18条</dt><dd>学級代議員選出規定<br>
+		<dl><dt>１</dt><dd>．学級代議員は各学級より投票によって選出される。</dd></dl>
+		<ins class="b1"><dl><dt>２</dt><dd>．<span class="tipso" title="現状に合わせた変更">告示日及び選挙日は各学級ごとに定める。ただしその期の初回生徒議会までに選挙を行うこと。</span></dd></dl></ins>
+		<ins class="b1"><dl><dt>３</dt><dd>．<span class="tipso" title="まともに機能している「役員選挙」の方に移しました">役員選出規定第５項から第13項までの規定を適用する。</span></dd></dl></ins>
+	</dd></dl>
+
+	<dl><dt>第19条</dt><dd>学級委員選出規定<br>
+		<dl><dt>１</dt><dd>．学級委員は代議員選挙の直後同日中に選出する。</dd></dl>
+		<dl><dt>２</dt><dd>．学級委員は<span class="tipso" title="現状に合わせて、また代議員と学級委員との掛け持ちは非現実的"><strong class="b1"><!--
+			-->代議員を除く</strong></span>学級自治会員で互選によって選出<strong class="b2">される</strong>。</dd></dl>
+<br>
+		<dl><dt>３</dt><dd>．選出<strong class="b2">された</strong>学級委員は互選<strong class="b3">あるいは</strong>適当な方法により<!--
+			--><strong class="b3">それぞれ</strong><ins class="b3">ＨＲ、保健、</ins>会計、<strong class="b3">図書、</strong>運動、厚生、集会<!--
+			--><span class="tipso" title="第12条参照"><ins class="b1">、岸高祭実行、体育祭</ins></span>委員となる。</dd></dl>
+	</dd></dl>
+	<dl><dt>第20条</dt><dd>選挙管理規定<br>
+		<ins class="b1"><dl><dt>１</dt><dd>．学級代議員及び役員選出にあたって、選挙管理委員会を構成する。</dd></dl></ins>
+		<dl><dt>２</dt><dd>．<strong class="b1">選挙管理委員は</strong>各クラスより１名ずつ<strong class="b1">選出される。</strong>選挙管理委員の任期は１年とする。</dd></dl>
+		<dl><dt>３</dt><dd>．委員長は<strong class="b1">選挙管理委員の中から</strong>互選によって<strong class="b1">選出される</strong>。</dd></dl>
+<br><br><br>
+		<dl><dt>４</dt><dd>．選挙管理委員は代議員、役員を兼ねることができない。</dd></dl>
+		<dl><dt>５</dt><dd>．選挙管理委員会は業務遂行の助成者として教員の<strong class="b1">数名</strong>に顧問を<strong class="b1">委任</strong>することができる。</dd></dl>
+		<dl><dt>６</dt><dd>．<span class="tipso" title="旧第3項を統合">選挙管理委員会は、学級代議員<strong class="b1">及び役員選出の</strong>選挙管理に関して、一切の責務及び権限を<strong class="b1">持つ</strong>。</span></dd></dl>
+</dd></dl>
+</section></div>
+
+<div class="section"><section>
+<h3>第４章　会費及び経費</h3>
+<dl>
+	<dt>第21条</dt><dd>本会の会費は、年<strong class="b3">1,700</strong>円とする。</dd>
+</dl>
+<dl>
+	<dt>第22条</dt><dd>会計の監査は<strong class="b3">年度末</strong>とする。</dd>
+</dl>
+<dl>
+	<dt>第23条</dt><dd>会長<strong class="b1">及び</strong>会計は<strong class="b3">年度末</strong>に収支決算報告をしなければならない。</dd>
+</dl>
+<dl>
+	<dt>第24条</dt><dd><strong class="b3">年度末</strong>及び適当な時期に会計監査委員会<strong class="b1">を構成し</strong>会計帳簿の検査をする。<!--
+		-->細則は<span class="tipso" title="明示化"><strong class="b1">会則別項内の会計監査委員会規定において規定する</strong></span>。</dd>
+</dl>
+<dl>
+	<dt>第25条</dt><dd>経費の支出を要する際は議会の承認を経なければならない。<strong class="b1">ただし</strong>急を要する場合には<!--
+		--><span class="tipso" title="現状では執行委員会の承認の方が庶務委員会の招集よりもハードルが低いため"><strong class="b1">5,000円以下の<!--
+		-->金額は執行<strong class="b1">部</strong>の承認により</strong></span><strong class="b3">これ</strong>を支出し議会に事後承認を求める事が<strong class="b1">できる</strong>。</dd>
+</dl>
+<br>
+</section></div>
+
+<div class="section"><section>
+<h3>第５章　罰則</h3>
+<dl>
+	<dt>第26条</dt><dd>役員、代議員、学級委員<ins class="b1">、選挙管理委員</ins>で品行不良<strong class="b3">あるいは</strong>役員、代議員、学級委員<ins class="b1">、選挙管理委員</ins>としての<!--
+		-->資格に欠ける行いのあった者に対しては、議会の４分の３以上の賛同によって<strong class="b3">これ</strong>を<!--
+		--><span class="tipso" title="「罷免」は中学校で習っているので読めるという意見がありました"><strong class="b1">罷免できる</strong></span>。</dd>
+</dl>
+</section></div>
+
+<div class="section"><section>
+<h3>第６章　附則</h3>
+<dl>
+	<dt>第27条</dt><dd>本会則の修正、変更は議会の３分の２以上の是認を経た後、全会員の４分の３以上の是認を得て成立する。</dd>
+</dl>
+<dl>
+	<dt>第28条</dt><dd>本会則は<strong class="b1">2018年４月１日</strong>に改正されその日より効力を発する。</dd>
+</dl>
+</section></div>
+
+</section></div>
+
+
+<h3 class="bekkou_t">会　則　別　項</h3>
+<div class="section bekkou"><section class="bekkou">
+<div class="section"><section>
+<dl><dt>(1)</dt><dd>　クラブ設置規定<br>
+	<dl><dt>１</dt><dd>．自治会にはクラブを設置する。</dd></dl>
+	<dl><dt>２</dt><dd>．クラブは会員相互の親善と心身鍛錬及び学芸研鑚を図る事を目的とする。</dd></dl>
+	<dl><dt>３</dt><dd>．クラブは文化クラブ、運動クラブに大別する。</dd></dl>
+	<dl><dt>４</dt><dd>．クラブ顧問として教員<strong class="b1">１名以上</strong>を置かなければならない。</dd></dl>
+	<dl><dt>５</dt><dd>．クラブは<strong class="b3">年度末</strong>及び必要に応じ会計<strong class="b3">報告</strong>を<strong class="b2">庶務</strong>委員会に提出しなければならない。</dd></dl>
+</dd></dl>
+</section></div>
+
+<div class="section"><section>
+<dl><dt>(2)</dt><dd>　予算作成規定<br>
+	<dl><dt>１</dt><dd>．本予算は後期に次年度のものを決定する。</dd></dl>
+	<dl><dt>２</dt><dd>．予算作成については、原案を<ins class="b3">原則として</ins><strong class="b1">予算原案作成委員会</strong>に<strong class="b3">おいて<!--
+		--></strong>作成し、<span class="tipso" title="第9条参照">執行<strong class="b1">部</strong></span>の承認を経た後、議会の審議を受けるものとする。<!--
+		--><strong class="b1">ただし</strong>予算原案作成委員会は<strong class="b3">会計、<span class="tipso" title="昔は会計委員会がありました"><strong class="b1">庶務</strong>委員</span></strong>に<!--
+		--><strong class="b3">よって</strong>構成<strong class="b1">される</strong>。</dd></dl>
+<br>
+<br>
+</dd></dl>
+</section></div>
+
+<div class="section"><section>
+<dl><dt>(3)</dt><dd>　会計監査委員会規定<br>
+	<dl><dt>１</dt><dd>．組織　会計監査委員<ins class="b1">会</ins>は５人の監査委員<strong class="b1">によって</strong>構成される。</dd></dl>
+	<dl><span class="tipso" title="順番の入れ替え"><strong class="b1"><dt>２</dt></strong></span><dd>．監査委員の任命、任期　監査委員は<!--
+		--><span class="tipso" title="第9条参照">執行<strong class="b1">部</strong></span>が議会の同意を経て指名する。任期は１年とする。</dd></dl>
+	<dl><span class="tipso" title="順番の入れ替え"><strong class="b1"><dt>３</dt></strong></span><dd>．委員長の任命　会計監査委員会の長は<!--
+		-->監査委員の中から互選した<strong class="b1">者</strong>について議会に<strong class="b3">おいて</strong><strong class="b3">これ</strong>を承認する。</dd></dl>
+	<dl><dt>４</dt><dd>．監査<br>
+		(イ)会計監査委員会は、各クラブ、<span class="tipso" title="第9条参照">執行<strong class="b1">部</strong></span>その他一切の自治会会計に関する監査を行うものとする。<br>
+		(ロ)会計監査委員会は常時監査を行い、会計の適正を期し是正をはかる。</dd></dl>
+	<dl><dt>５</dt><dd>．会計監査委員は監査の結果を<span class="tipso" title="第9条参照">執行<strong class="b1">部</strong></span>に<!--
+		-->報告し、会長並びに会計はそれをもとにして収支決算報告を議会に対して行う。</dd></dl>
+</dd></dl>
+</section></div>
+
+<div class="section"><section>
+<dl><dt>(4)</dt><dd>　議会運営規定<br>
+	<dl><dt>１</dt><dd>．任期中の代議員交替については選挙管理委員会の承認を要する。</dd></dl>
+	<dl><dt>２</dt><dd>．代議員は委任状をもって議会出席に<strong class="b1">代える</strong>事はできない。</dd></dl>
+	<dl><dt>３</dt><dd>．議会開会中退場しようとする代議員は書記に申し出るものとする。</dd></dl>
+	<dl><dt>４</dt><dd>．議会は代議員総数の過半数の出席をもって成立する。</dd></dl>
+	<ins class="b2"><dl><dt>５</dt><dd>．議長は会長が務める。副会長が副議長として議長を補佐する。</dd></dl></ins>
+	<dl><dt>６</dt><dd>．議決は出席議員の過半数の賛成を要する。ただし会則修正案等重要案件は３分の２以上の賛成を要する。</dd></dl>
+	<dl><dt>７</dt><dd>．可否同数の場合は議長がこれを決する。</dd></dl>
+	<dl><dt>８</dt><dd>．議長事故の際は副議長が代行する。</dd></dl>
+<br>
+</dd></dl>
+</section></div>
+
+<div class="section"><section><ins class="b3">
+<dl><dt>(5)</dt><dd>　会則別項の改正<br>
+	会則別項の改正は、議会の構成員の３分の２以上の賛成をもって行われる。
+</dd></dl></ins>
+</section></div>
+
+</section></div>
+<hr>
+<br>
+<div class="section"><section>
+<a id="soudan"></a>
+<h2>10．生徒相談室</h2>
+<p>
+３．その他<br>
+スクールカウンセラーの先生が来校されることがあり、カウンセラーによるカウンセリングを受けることができます。
+</p>
+</section></div>
+
+</div>
+</div>
+
+<div style="width:600px;font-size:16px;" class="setumei2">
+<section style="width:600px;font-size:16px;" class="setumei2">
+<a id="hyouki"></a>
+<h2>表記ゆれについて</h2>
+<table>
+<tr><td colspan="4">ひらがなに統一</td></tr>
+<tr><td class="narrow">旧表現</td><td class="narrow">新表現</td><td class="wide">変更箇所</td><td class="wide">元々新表現だった</td></tr>
+<tr><td>宛</td>		<td>ずつ</td>	<td>8-2,9-2</td>		<td>20-1</td></tr>
+<tr><td>但し</td>	<td>ただし</td>	<td>10-2,18-4,25,(2)-2</td><td>14,17-1,17-2,(4)-6</td></tr>
+<tr><td>又</td>		<td>また</td>	<td>8-5</td>			<td>13,14,18,25</td></tr>
+<tr><td>全て</td>	<td>すべて</td>	<td>なし</td>			<td>10</td></tr>
+<tr><td>出来る</td>	<td>できる</td>	<td>5-4,18-4,25,26</td>	<td></td></tr>
+<tr><td colspan="4">漢字に統一</td></tr>
+<tr><td>おく</td>		<td>置く</td>	<td>5</td>		<td>6,7,12</td></tr>
+<tr><td>および</td>		<td>及び</td>	<td>なし</td>	<td></td></tr>
+<tr><td>ただちに</td>	<td>直ちに</td>	<td>なし</td>	<td></td></tr>
+<tr><td>ならびに</td>	<td>並びに</td>	<td>なし</td>	<td></td></tr>
+<tr><td>もの(人の意味)</td>	<td>者</td>	<td>8-2,9-2,(3)-2</td>	<td>18-8,18-10,26</td></tr>
+</table>
+</section>
+</div>
+</body>
+</html>

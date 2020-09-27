@@ -1,0 +1,179 @@
+/* 写真表示部分についてのCSSと、それに伴う全体のwidthの変化を記載しています */
+
+@media screen and (min-width: 980px) {
+ header{
+	width:100%;
+	padding:0 0 0 5%;
+ }
+ h1{
+	margin-right:5%;
+ }
+ .to_top,.reverse{
+	margin:0 0 0 30px;
+ }
+ figure{
+	width:calc((960px + (100% - 960px)* 0.7)* 0.45);	/*calc*/
+	right:calc((100% - 960px)* 0.15);				/*calc*/
+ }
+ #fig_favorite_list{
+ 	right:calc((100% - 960px)* 0.15 + 15px);
+ }
+ main{
+	width:calc((960px + (100% - 960px)* 0.7)* 0.55);	/*calc*/
+	margin-left:calc((100% - 960px)* 0.15);			/*calc*/
+ }
+}
+@media screen and (max-width: 979px) and (min-width: 720px) {
+ header{
+	width:100%;
+	padding:0 0 0 5%;
+ }
+ h1{
+	margin-right:5%;
+ }
+ .to_top,.reverse{
+	margin:0 0 0 30px;
+ }
+ figure{
+	width:45%;
+	right:0;
+ }
+ #fig_favorite_list{
+ 	right: 15px;
+ }
+ main{
+	width:55%;
+	margin-left:0px;
+ }
+}
+@media screen and (max-width: 719px){
+ header{
+	width:100%;
+	padding:0 0 0 10px;
+ }
+ h1{
+	margin-right:0px;
+ }
+ .to_top,.reverse{
+	margin:0 0 0 10px;
+ }
+ figure{
+	width:317px;
+	right:0;
+ }
+ #fig_favorite_list{
+ 	right: 15px;
+ }
+ main{
+	width:calc(100% - 317px);
+	margin-left:0px;
+ }
+}
+
+
+/*図表*/
+    /*全体の枠*/
+    figure{
+        position:fixed;
+        /* position:-webkit-sticky;
+        position:sticky; */
+        top:60px;
+        max-height:calc(100% - 60px);
+        border:5px solid #0F0;
+        padding:10px;
+        text-align:center;
+        font-size:16px;
+        line-height:35px;
+    }
+    #fig_title_frame,#fig_operate_frame{
+        border:1px solid #AAA;
+    }
+    #fig_title_frame{
+        border-bottom:none;
+    }
+    #fig_title{
+        min-height:35px;
+    }
+    #fig_operate_frame{
+        display:table;
+        width:100%;
+        height:35px;
+        background-color:#F2F2F2;
+    }
+    .fig_button_back,.fig_button_forward{
+        min-width:40px;
+    }
+    .fig_button_newpage{
+        min-width:110px;
+    }
+    #fig_img{
+        max-width:100%;
+        max-height:calc(100vh - 60px/*header*/ - 30px/*figure*/ - 81px);
+        margin-top:10px;
+        border:1px solid #AAA;
+        vertical-align:top;
+    }
+
+    /*個々のボタン*/
+    .fig_button{
+        display:table-cell;
+        height:33px;
+        line-height:33px;
+        border:none;
+        border-right:1px solid #AAA;
+        padding:0;
+        vertical-align:middle;
+        background-color:inherit;
+        font-size:inherit;
+        font-family:inherit;
+    }
+    #fig_operate_frame>.fig_button:last-child{
+        border-right:none;
+    }
+    .fig_button>button{
+        display:block;
+        width:100%;
+        height:33px;
+        border:none;
+        padding:0;
+        background-color:inherit;
+        font-size:inherit;
+        font-family:inherit;
+    }
+    .fig_button:hover{
+        background-color:#D4FFD4;
+    }
+    .fig_button:active{
+        background-color:#AAFFAA;
+    }
+    .fig_button_favorite_img{
+        margin:5px;
+        width:23px;
+    }
+
+    /*お気に入りリスト*/
+    #fig_favorite_list{
+        display: none;
+        position:fixed;
+        top: 145px;
+        width: 20em;
+        max-height: 280px;
+        border:1px solid #999;
+        overflow-y: scroll;
+        font-size:14px; 
+    }
+    #fig_favorite_list li{
+        height: 35px;
+        border-bottom: 1px solid #AAA;
+        background-color: #F2F2F2;
+        list-style: none;
+        overflow: hidden;
+    }
+    #fig_favorite_list li:hover{
+        background-color: #D4FFD4;
+    }
+    #fig_favorite_list li:active{
+        background-color: #AAFFAA;
+    }
+
+/*図表ここまで*/

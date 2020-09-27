@@ -1,0 +1,32 @@
+*{
+	padding:0;
+}
+@media screen and (min-width: 980px) {
+ main{
+	width:calc(960px + (100% - 960px)* 0.7);	/*calc*/
+	margin-left:calc((100% - 960px)* 0.15);			/*calc*/
+ }
+}
+@media screen and (max-width: 979px) {
+ main{
+	width:100%;
+	margin-left:0px;
+ }
+}
+
+/*図表*/
+figure{
+	display:none;
+}
+
+header{
+	width:100%;
+	padding:0 0 0 60px;
+}
+h1{
+	margin-right:50px;
+}
+.top,.reverse{
+	margin:0 20px;
+}
+

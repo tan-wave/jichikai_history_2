@@ -1,0 +1,50 @@
+﻿*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-weight:400;
+}
+html{
+	margin:0px auto;
+	padding:0 0 100px;
+	width:960px;
+	max-width: 100%;
+	border-left-width:1px;
+	border-left-style: solid;
+	border-right:1px solid #999999;
+
+	font-family:"メイリオ","游ゴシック","游ゴシック体",sans-serif;
+	line-height:1.6em;
+	font-size:16px;
+}
+body>section{
+	padding: 0 4%;
+}
+h1{
+	height:2em;
+	font-size:2rem;
+	line-height:2em;
+	margin:0 0 20px;
+	padding-left:1em;
+	background:linear-gradient(to right, #C6FFC6, #EEFFEE);
+}
+h2{
+	font-size:1.25rem;
+	margin:10px -2% 5px;
+	border-left:6px solid #9F9;
+	border-bottom:3px dotted #9F9;
+	padding:3px 8px;
+}
+h3{
+	font-size:1.2rem;
+	margin:20px -1% 10px;
+	border-left:4px solid #9F9;
+	padding-left:6px;
+}
+
+ul{
+	margin-left: 1em;
+}
+p{
+	margin-top: 0.5em;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>物理実験室 - KISS</title>
+	<link rel="stylesheet" href="./jquery.mobile/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<script src="./jquery.mobile/jquery-1.11.1.min.js"></script>
+	<script src="./jquery.mobile/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+<div data-role="page0" id="page0">
+	<div class="anctionArea">
+		<h2>＊物理実験室＊</h2>
+		<section>
+			<img src="img/kiss/phy-e.jpg" width="100%" height="100%"/>
+		</section>
+		<p>
+<!-- 説明文  -->
+　科目選択によって訪れなくなる教室の一つ。中学校の頃教科書で見たような複雑な機械が数多くある。
+実験というより、実演に使われることが多い。ここも、講義室との間に準備室がある。
+<!-- 説明文終わり  -->
+		</p>
+		<div data-role="footer" data-position="fixed">
+			<a href="#listpanel" class="ui-btn ui-btn-inline" id="appear_listpanel">部屋を移動する</a>
+			<a data-ajax="false" href="kiss.html" class="ui-btn ui-btn-inline">トップページに戻る</a>
+		</div>
+	</div>
+
+<!-- listpanel  -->
+	<div data-role="panel" id="listpanel" data-position="left" data-display="overlay" data-theme="b">
+	<div data-role="collapsible-set" data-theme="a" data-content-theme="a">
+		<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+		<h4>校内</h4>
+			<ul data-role="listview" data-theme="b">
+		<li><a data-ajax="false" href="map.html">全体マップ</a></li>
+		<li><a data-ajax="false" href="2gro.html">第２グラウンド</a></li>
+		<li><a data-ajax="false" href="nihonn.html">日本庭園</a></li>
+		<li><a data-ajax="false" href="nakaniwa.html">中庭</a></li>
+		<li><a data-ajax="false" href="clubhouse.html">クラブハウス</a></li>
+		<li><a data-ajax="false" href="undojo.html">運動場</a></li>
+		<li><a data-ajax="false" href="reme.html">黎明館・トレーニングルーム</a></li>
+		<li><a data-ajax="false" href="takkyu.html">卓球場</a></li>
+		<li><a data-ajax="false" href="seminar.html">セミナーハウス</a></li>
+		<li><a data-ajax="false" href="pool.html">プール</a></li>
+		<li><a data-ajax="false" href="tennis.html">テニスコート</a></li>
+			</ul>
+		</div>
+
+		<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+		<h4>体育館</h4>
+			<ul data-role="listview" data-theme="b">
+		<li><a data-ajax="false" href="taikukan.html">体育館マップ</a></li>
+		<li><a data-ajax="false" href="koi.html">更衣室</a></li>
+		<li><a data-ajax="false" href="shokyo.html">小競技場</a></li>
+		<li><a data-ajax="false" href="judo.html">柔道場</a></li>
+		<li><a data-ajax="false" href="kendo.html">剣道場</a></li>
+		<li><a data-ajax="false" href="taikuroom.html">体育室</a></li>
+		<li><a data-ajax="false" href="kyokan.html">体育教官室</a></li>
+			</ul>
+		</div>
+
+		<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+		<h4>一階</h4>
+			<ul data-role="listview" data-theme="b">
+		<li><a data-ajax="false" href="1F.html">一階マップ</a></li>
+		<li><a data-ajax="false" href="kocho.html">校長室</a></li>
+		<li><a data-ajax="false" href="kyomu.html">教務室</a></li>
+		<li><a data-ajax="false" href="hoso.html">放送室</a></li>
+		<li><a data-ajax="false" href="toshoroom.html">図書室</a></li>
+		<li><a data-ajax="false" href="toshohall.html">図書室前ホール</a></li>
+		<li><a data-ajax="false" href="shicho.html">視聴覚教室</a></li>
+		<li><a data-ajax="false" href="shinro.html">進路指導室</a></li>
+		<li><a data-ajax="false" href="science.html">化学実験室</a></li>
+		<li><a data-ajax="false" href="northroom.html">北選択教室</a></li>
+		<li><a data-ajax="false" href="kishi-khohall.html">岸高ホール・ホワイエ</a></li>
+		<li><a data-ajax="false" href="shokudo.html">食堂（ゆうかりホール）</a></li>
+		<li><a data-ajax="false" href="hokenn.html">保健室</a></li>
+			</ul>
+		</div>
+
+		<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+		<h4>二階</h4>
+			<ul data-role="listview" data-theme="b">
+		<li><a data-ajax="false" href="2F.html">二階マップ</a></li>
+		<li><a data-ajax="false" href="tamokuteki.html">多目的教室</a></li>
+		<li><a data-ajax="false" href="kyuhin.html">給品部</a></li>
+		<li><a data-ajax="false" href="kyodo.html">郷土資料室</a></li>
+		<li><a data-ajax="false" href="bio-e.html">生物実験室</a></li>
+		<li><a data-ajax="false" href="bio-l.html">生物講義室</a></li>
+		<li><a data-ajax="false" href="math.html">数学職員室</a></li>
+		<li><a data-ajax="false" href="NL.html">国語職員室</a></li>
+		<li><a data-ajax="false" href="kaigi.html">会議室</a></li>
+			</ul>
+		</div>
+
+		<div data-role="collapsible" data-collapsed="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+		<h4>三階</h4>
+			<ul data-role="listview" data-theme="b">
+		<li><a data-ajax="false" href="3F.html">三階マップ</a></li>
+		<li><a data-ajax="false" href="E-sentaku.html">東選択教室</a></li>
+		<li><a data-ajax="false" href="bijutu.html">美術教室</a></li>
+		<li><a data-ajax="false" href="sodan.html">生徒相談室</a></li>
+		<li><a data-ajax="false" href="seito-jichikai.html">生徒自治会室</a></li>
+		<li><a data-ajax="false" href="phy-e.html">物理実験室</a></li>
+		<li><a data-ajax="false" href="phy-l.html">物理講義室</a></li>
+		<li><a data-ajax="false" href="geo.html">地学教室</a></li>
+		<li><a data-ajax="false" href="W-sentaku.html">西選択教室</a></li>
+		<li><a data-ajax="false" href="lan.html">LAN教室</a></li>
+		<li><a data-ajax="false" href="english.html">英語科準備室</a></li>
+			</ul>
+		</div>
+
+		<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+		<h4>四階</h4>
+			<ul data-role="listview" data-theme="b">
+		<li><a data-ajax="false" href="4F.html">四階マップ</a></li>
+		<li><a data-ajax="false" href="ongaku.html">音楽教室</a></li>
+		<li><a data-ajax="false" href="ongakujunbi.html">音楽準備室</a></li>
+		<li><a data-ajax="false" href="kiguko.html">器具庫</a></li>
+		<li><a data-ajax="false" href="hihuku.html">被服教室</a></li>
+		<li><a data-ajax="false" href="tyori.html">調理教室</a></li>
+		<li><a data-ajax="false" href="kateka.html">家庭科総合実習室</a></li>
+		<li><a data-ajax="false" href="saho.html">作法室</a></li>
+		<li><a data-ajax="false" href="shodo.html">書道教室</a></li>
+		<li><a data-ajax="false" href="tentai.html">天体ドーム(屋上)</a></li>
+			</ul>
+		</div>
+	</div>
+	</div><!-- /listpanel -->
+</div>
+</body>
+</html>

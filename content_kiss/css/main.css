@@ -1,0 +1,76 @@
+/*!
+* jQuery Mobile 1.4.5
+* Git HEAD hash: 68e55e78b292634d3991c795f06f5e37a512decc <> Date: Fri Oct 31 2014 17:33:30 UTC
+* http://jquerymobile.com
+*
+* Copyright 2010, 2014 jQuery Foundation, Inc. and othercontributors
+* Released under the MIT license.
+* http://jquery.org/license
+*
+*/
+
+/* このプログラムには、上記のようにライセンスされているプログラムをMIT licenseに従い改造したものを含みます。
+https://opensource.org/licenses/mit-license.php
+
+ただし、元の「KISS ～Kishi-Kho Information Serving System～」に対しては、改造・再配布の許可を取っていません。 */
+
+
+html{
+	background: #eee!important;
+}
+#listpanel,#index-listpanel{
+	width:300px;
+	max-width:75%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.anctionArea{
+	text-align:center;
+	line-height:1.4;
+}
+.anctionArea p{
+	text-align: left;
+}
+.anctionArea img{
+	display: inline-block;
+	max-width:100%;
+}
+
+@media screen and (max-width: 1000px){
+	.anctionArea{
+		width:90%;
+		padding:20px 5%;
+		margin-left:0;
+		margin-right:0;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.anctionArea{
+		width:640px;
+		padding:20px;
+		margin-left:300px;
+		margin-right:auto;
+	}
+
+	#appear_listpanel{
+		display:none;
+	}
+	#listpanel {
+		height:100vh;
+		transform: translate3d(0,0,0);
+		clip:auto;
+		visibility:visible;
+	}
+
+	/* jQuery.mobile.js不使用時はreplaceJqueryMobile.cssにより打ち消される */
+	#page,#page0{
+		min-height:855px;
+	}
+}
+
+@media screen and (min-width: 1300px){
+	.anctionArea{
+		margin-left:auto;
+	}
+}
+
