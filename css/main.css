@@ -125,6 +125,10 @@ h5{
 	.small_text{
 		font-size: 0.6em;
 	}
+	strong{
+		font-weight: 900;
+	}
+
 	/* 段落の行間 */
 	section>*{
 		/* text-indent: 1em; */
