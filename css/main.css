@@ -61,30 +61,33 @@ header>.breadcrumb{
 	display:flex;
 }
 main{
-	padding:5px;
+	padding:0 1.5% 1%;
 }
 
 /* 見出し */
 section{
 	margin-bottom:18px;
 }
-section>*:not(a):not(section):not(h2):not(h3):not(h4):not(h5):not(h6){
-	margin-left:20px;
-	margin-right:10px;
+section>*:not(a):not(h2):not(h3):not(h4):not(h5):not(h6){
+	margin-left:1.5rem;
+	/*margin-right:10px;*/
+}
+section>section:not(a):not(h2):not(h3):not(h4):not(h5):not(h6){
+	margin-left:1rem;
 }
 h1{
 	margin:1rem;
 	font-size: 2rem;
 }
 h2{
-	margin:10px 0px;
+	margin:1rem 0;
 	border-left:5px solid #8E8;
 	border-bottom:3px dotted #8E8;
-	padding-left:15px;
+	padding-left:12px;
 	font-size:20px;
 }
 h3{
-	margin:0.75rem 0.5rem 0.5rem 1rem;
+	margin:0.75rem 0 0.5rem 0.5rem;
 	border-bottom:2px dashed #999;
 	padding-left:0.5rem;
 	font-size:18px;
@@ -110,7 +113,10 @@ h5{
 
 	/* 画像呼び出しのほか、クリックすると表示する仕掛けに使用 */
 	span[onclick]{
-		color:#0000FF;
+		color:#000;
+		background-color: rgba(64, 255, 64, 0.3);
+		margin: 0 0.25em;
+		/* padding: 0 0.5em; */
 		text-decoration: underline;
 	}
 	/* クリックすると表示する仕掛けに使用 */
@@ -118,11 +124,11 @@ h5{
 		display:none;
 	}
 	/* 打消し線 */
-	.himitsu{
+	.himitsu,.sen{
 		text-decoration: line-through;
 	}
 	/* 小さい文字 */
-	.small_text{
+	.small_text,.small{
 		font-size: 0.6em;
 	}
 	strong{
