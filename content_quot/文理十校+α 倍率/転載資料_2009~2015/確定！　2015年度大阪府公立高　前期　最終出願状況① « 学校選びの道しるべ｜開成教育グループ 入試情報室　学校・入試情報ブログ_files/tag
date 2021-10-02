@@ -1,6 +1,0 @@
-BrightTag.site('13O0EuN',function(s){
-s.domready(function(){
-s.tag('\x3cscript type\x3d\x22text/javascript\x22\x3e\n        var _uah \x3d _uah || {};\n            _uah[\x27id\x27] \x3d "9211709";\n            _uah[\x27h\x27] \x3d ((parseInt("9211709") + 11) * 7).toString();\n            _uah[\x27oem_id\x27] \x3d 6;\n            _uah[\x27lg_id\x27] \x3d _uah[\x27lg_id\x27] || \x27\x27;\n      \x3c/script\x3e\n      \x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22//y.nakanohito.jp/ua/ya.js\x22\x3e\x3c/script\x3e',{tagId:2546329,group:'user_local'});
-s.tag('\x3cscript type\x3d\x22text/javascript\x22\x3e\n        (function(f) {\n          var n \x3d function() {\n            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);\n          };\n          f.fbq \x3d f.fbq ? f.fbq : n;\n          f._fbq \x3d f._fbq ? f._fbq : n;\n          n.push \x3d n;\n          n.loaded \x3d !0;\n          n.version \x3d \x272.5\x27;\n          n.agent \x3d \x27sig\x27;\n          n.queue \x3d [];\n          f.fbq(\x27init\x27, "266889880480792");\n          if(false){\n            f.fbq(\x27track\x27, \x27PageView\x27);\n          }\n        })(window);\n      \x3c/script\x3e\n      \x3cscript async type\x3d\x22text/javascript\x22 src\x3d\x22https://connect.facebook.net/en_US/fbevents.js\x22\x3e\x3c/script\x3e',{tagId:5504951});
-});
-});
