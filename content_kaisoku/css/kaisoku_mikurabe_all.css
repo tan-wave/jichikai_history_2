@@ -2,10 +2,6 @@
 	margin:0px;
 	padding:0px;
 }
-div.main{
-	width:1980px;
-	margin:0 auto;
-}
 /*文字サイズ等*/
 html{
 	font-size:0px;
@@ -17,7 +13,11 @@ html{
 }
 /*幅調整*/
 html{
-	width:1980px;
+	width:2400px;
+}
+div.main{
+	width:2400px;
+	margin:0 auto;
 }
 .content{
 	display:inline-block;

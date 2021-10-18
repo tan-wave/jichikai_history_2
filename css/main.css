@@ -2,7 +2,7 @@
 html{
 	font-family:"メイリオ","游ゴシック","Yu Gothic",“游ゴシック体”, YuGothic,sans-serif;
 	color:#333;
-	font-size:15px;
+	font-size:17px;
 	line-height:1.6;	/*1.6emだと「15*1.6=24px」、1.6だと「その場所のフォントの1.6倍」として継承される*/
 	margin:0 auto;
 }
