@@ -6,8 +6,9 @@ var gallery_html = `
 <li><span onclick="click_img_link('1997年度_岸高100周年記念下敷き_1面目')">1997年度 岸高100周年記念下敷き 1面目</span>
 <span onclick="click_img_link('1997年度_岸高100周年記念下敷き_2面目')">2面目</span></li>
 <li><span onclick="click_img_link('1997年度_岸高ホームページ宣伝記事（岸高新聞）')">1997年度 岸高ホームページ宣伝記事（岸高新聞）</span></li>
-<li><span onclick="click_img_link('2007年度_第1回桜祭り')">2007年度 第1回桜祭り</span></li>
+<li><span onclick="click_img_link('2007年_第1回桜祭り')">2007年 第1回桜祭り</span></li>
 <li><span onclick="click_img_link('2011年度_岸高特集記事（産経新聞）')">2011年度 岸高特集記事（産経新聞）</span></li>
+<li><span onclick="click_img_link('2012年_第6回桜祭り（校長ブログ）')">2012年 第6回桜祭り（校長ブログ）</span></li>
 <h3 id="kousha">校舎</h3><li><span onclick="click_img_link('学校所在地')">学校所在地</span></li>
 <li><span onclick="click_img_link('現在使われている地図')">現在使われている地図</span></li>
 <li><span onclick="click_img_link('学校地図')">学校地図</span></li>
@@ -39,7 +40,9 @@ var gallery_html = `
 <li><span onclick="click_img_link('2018年度_女子スラックス導入')">2018年度 女子スラックス導入</span></li>
 <li><span onclick="click_img_link('2018年度_制服の着用（3年生）')">2018年度 制服の着用（3年生）</span></li>
 <li><span onclick="click_img_link('2018年度_服装規定（冬）')">2018年度 服装規定（冬）</span></li>
-<h3 id="jichikai_room">自治会室など</h3><li><span onclick="click_img_link('自治会室_2018年12月_廊下側')">自治会室 2018年12月 廊下側</span>
+<h3 id="jichikai_room">自治会室など</h3><li><span onclick="click_img_link('自治会室_2011年10月_写真1（校長ブログ）')">自治会室 2011年10月 写真1（校長ブログ）</span>
+<span onclick="click_img_link('自治会室_2011年10月_写真2（校長ブログ）')">写真2</span></li>
+<li><span onclick="click_img_link('自治会室_2018年12月_廊下側')">自治会室 2018年12月 廊下側</span>
 <span onclick="click_img_link('自治会室_2018年12月_窓側')">窓側</span>
 <span onclick="click_img_link('自治会室_2018年12月_PCと書庫')">PCと書庫</span></li>
 <li><span onclick="click_img_link('自治会室_2019年3月_廊下側')">自治会室 2019年3月 廊下側</span>
@@ -291,32 +294,10 @@ var gallery_html = `
 <h4 class="midashi4">2018年度</h4><li><span onclick="click_img_link('2018年度_学級委員役職一覧')">2018年度 学級委員役職一覧</span></li>
 <li><span onclick="click_img_link('自治会新聞_2018-12-21発行')">自治会新聞 2018-12-21発行</span></li>
 <h3 id="kishikousai_pr">岸高祭プログラム</h3><h4 class="midashi4">表紙集（第一世紀掲載）</h4><li><span onclick="click_img_link('岸高祭プログラム表紙_1ページ（第一世紀より）')">岸高祭プログラム表紙 1ページ（第一世紀より）</span>
-<span onclick="click_img_link('岸高祭プログラム表紙_2ページ（第一世紀より）')">ページ2</span>
-<span onclick="click_img_link('岸高祭プログラム表紙_3ページ（第一世紀より）')">ページ3</span>
-<span onclick="click_img_link('岸高祭プログラム表紙_4ページ（第一世紀より）')">ページ4</span>
-<span onclick="click_img_link('岸高祭プログラム表紙_5ページ（第一世紀より）')">ページ5</span></li>
-<h4 class="midashi4">1960年代</h4><li><span onclick="click_img_link('1967年度_文化祭プログラム_1ページ')">1967年度 文化祭プログラム 1ページ</span>
-<span onclick="click_img_link('1967年度_文化祭プログラム_2ページ')">2ページ</span>
-<span onclick="click_img_link('1967年度_文化祭プログラム_3ページ')">3ページ</span>
-<span onclick="click_img_link('1967年度_文化祭プログラム_4ページ')">4ページ</span>
-<span onclick="click_img_link('1967年度_文化祭プログラム_5ページ')">5ページ</span>
-<span onclick="click_img_link('1967年度_文化祭プログラム_6ページ')">6ページ</span>
-<span onclick="click_img_link('1967年度_文化祭プログラム_7ページ')">7ページ</span>
-<span onclick="click_img_link('1967年度_文化祭プログラム_8ページ')">8ページ</span></li>
-<li><span onclick="click_img_link('1968年度_文化祭プログラム_1ページ')">1968年度 文化祭プログラム 1ページ</span>
-<span onclick="click_img_link('1968年度_文化祭プログラム_2ページ')">2ページ</span>
-<span onclick="click_img_link('1968年度_文化祭プログラム_3ページ')">3ページ</span>
-<span onclick="click_img_link('1968年度_文化祭プログラム_4ページ')">4ページ</span>
-<span onclick="click_img_link('1968年度_文化祭プログラム_5ページ')">5ページ</span>
-<span onclick="click_img_link('1968年度_文化祭プログラム_6ページ')">6ページ</span>
-<span onclick="click_img_link('1968年度_文化祭プログラム_7ページ')">7ページ</span>
-<span onclick="click_img_link('1968年度_文化祭プログラム_8ページ')">8ページ</span></li>
-<li><span onclick="click_img_link('1969年度_文化祭プログラム_1ページ')">1969年度 文化祭プログラム 1ページ</span>
-<span onclick="click_img_link('1969年度_文化祭プログラム_2ページ_（低画質）')">2ページ （低画質）</span>
-<span onclick="click_img_link('1969年度_文化祭プログラム_3ページ_（低画質）')">3ページ （低画質）</span>
-<span onclick="click_img_link('1969年度_文化祭プログラム_4ページ')">4ページ</span>
-<span onclick="click_img_link('1969年度_文化祭プログラム_5ページ')">5ページ</span>
-<span onclick="click_img_link('1969年度_文化祭プログラム_6ページ')">6ページ</span></li>
+<span onclick="click_img_link('岸高祭プログラム表紙_2ページ（第一世紀より）')">2ページ</span>
+<span onclick="click_img_link('岸高祭プログラム表紙_3ページ（第一世紀より）')">3ページ</span>
+<span onclick="click_img_link('岸高祭プログラム表紙_4ページ（第一世紀より）')">4ページ</span>
+<span onclick="click_img_link('岸高祭プログラム表紙_5ページ（第一世紀より）')">5ページ</span></li>
 <h4 class="midashi4">1970年代</h4><li><span onclick="click_img_link('1975年度_文化祭プログラム_表紙（高画質）')">1975年度 文化祭プログラム 表紙（高画質）</span></li>
 <li><span onclick="click_img_link('1975年度_文化祭プログラム_表')">1975年度 文化祭プログラム 表</span>
 <span onclick="click_img_link('1975年度_文化祭プログラム_裏')">裏</span></li>
@@ -816,8 +797,8 @@ var gallery_html = `
 <span onclick="click_img_link('2017年度自治会メモ帳_2ページ')">2ページ</span>
 <span onclick="click_img_link('2017年度自治会メモ帳_3ページ')">3ページ</span>
 <span onclick="click_img_link('2017年度自治会メモ帳_4ページ')">4ページ</span></li>
-<li><span onclick="click_img_link('2017年度自治会新聞タイトル案写真1')">2017年度自治会新聞タイトル案写真1</span>
-<span onclick="click_img_link('2017年度自治会新聞タイトル案写真2')">写真2</span></li>
+<li><span onclick="click_img_link('2017年度自治会新聞タイトル案_写真1')">2017年度自治会新聞タイトル案 写真1</span>
+<span onclick="click_img_link('2017年度自治会新聞タイトル案_写真2')">写真2</span></li>
 <li><span onclick="click_img_link('食堂メニュー表_食堂内')">食堂メニュー表 食堂内</span>
 <span onclick="click_img_link('食堂メニュー表_3F予約受付場')">食堂メニュー表 3F予約受付場</span></li>
 <li><span onclick="click_img_link('天空のSFC計画_4階からの掲示')">天空のSFC計画 4階からの掲示</span></li>
