@@ -100,7 +100,7 @@ h3{
 }
 
 .midashi4{
-	margin:5px;
+	margin:0.75rem 5px;
 	border-bottom:2px dotted #BBB;
 	padding-left:5px;
 	font-size:16px;
@@ -165,6 +165,9 @@ h5{
 	}
 
 	/* ギャラリーページ用 */
+	.gallery_ul_photo h2{
+		margin-left: -20px;
+	}
 	.gallery_ul_photo h3{
 		margin-left: -20px;
 	}
@@ -183,4 +186,14 @@ h5{
 	}
 	.gallery_ul_photo li span:first-child{
 		margin-left:0;
+	}
+
+	table{
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	th,td{
+		border: #000 1px solid;
+		padding:3px 6px;
+		vertical-align: middle;
 	}
